@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+<!-- Theme made by Weiest, used for a "About Me" page. -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Weiest's Resume">
+    <meta name="author" content="Chia Wei">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weiest</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="img/profile.jpg" class="d-block mx-lg-auto img-fluid rounded-circle" alt="weiest" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Weiest</h1>
+                <p class="lead">Software Developer from Singapore</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <a class="btn btn-primary btn-lg px-4 me-md-2" href="#segments">Speciality</a>
+                    <a class="btn btn-primary btn-lg px-4 me-md-2" href="#timeline-anchor">Timeline</a>
+                </div>
+                <hr>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <a class="btn btn-outline-secondary btn-lg px-4" href="https://github.com/weiest">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentcolor" class="bi bi-github d-block mx-auto mb-1" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                        </svg>
+                        Github
+                    </a>
+                    <a class="btn btn-outline-secondary btn-lg px-4" href="https://www.linkedin.com/in/weiest/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentcolor" class="bi bi-linkedin d-block mx-auto mb-1" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                        </svg>
+                        Linkedin
+                    </a>
+                    <a class="btn btn-outline-secondary btn-lg px-4" href="https://twitter.com/weiest_">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentcolor" class="bi bi-twitter d-block mx-auto mb-1" viewBox="0 0 16 16">
+                            <path
+                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                        </svg>
+                        Twitter
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="downArrow bounce mx-auto text-center">
+        <p>Scroll down to find out more!</p>
+
+        <img width="40" height="40" alt=""
+            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSLQodC70L7QuV8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0yNC4yODUsMTEuMjg0TDE2LDE5LjU3MWwtOC4yODUtOC4yODhjLTAuMzk1LTAuMzk1LTEuMDM0LTAuMzk1LTEuNDI5LDAgIGMtMC4zOTQsMC4zOTUtMC4zOTQsMS4wMzUsMCwxLjQzbDguOTk5LDkuMDAybDAsMGwwLDBjMC4zOTQsMC4zOTUsMS4wMzQsMC4zOTUsMS40MjgsMGw4Ljk5OS05LjAwMiAgYzAuMzk0LTAuMzk1LDAuMzk0LTEuMDM2LDAtMS40MzFDMjUuMzE5LDEwLjg4OSwyNC42NzksMTAuODg5LDI0LjI4NSwxMS4yODR6IiBmaWxsPSIjMTIxMzEzIiBpZD0iRXhwYW5kX01vcmUiLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4=" />
+    </div>
+    <section id="segments">
+        <div class="tl-item">
+            <div class="tl-bg" style="background-image: url(https://placeimg.com/801/801/tech)"></div>
+            <div class="tl-title">
+                <p class="f2 heading--sanSerif">Development</p>
+            </div>
+            <div class="tl-content">
+                <h1 class="f3 text--sanSerif">Python</h1>
+                <p>Flask, Dash-Plotly</p>
+                <h1 class="f3 text--sanSerif">Javascript/Typescript</h1>
+                <p>Empress, Vue, React, jQuery, NodeJS</p>
+                <h1 class="f3 text--sanSerif">Others Langauges</h1>
+                <p>HTML/CSS, Java, PHP, MySQL/MsSQL</p>
+                <h1 class="f3 text--sanSerif">Servers Operating Systems</h1>
+                <p>Linux (Debian and Ubuntu) and Windows</p>
+            </div>
+        </div>
+        <div class="tl-item">
+            <div class="tl-bg" style="background-image: url(https://placeimg.com/802/802/arch)"></div>
+            <div class="tl-title">
+                <p class="f2 heading--sanSerif">Analytics</p>
+            </div>
+            <div class="tl-content">
+                <h1 class="f3 text--sanSerif">Python</h1>
+                <p>Numpy, Pandas, Dash-Plotly</p>
+                <h1 class="f3 text--sanSerif">Natural Langauge Processing with Python</h1>
+                <p>NLTK, VADER, SpaCy, TextBlob</p>
+                <h1 class="f3 text--sanSerif">Applications</h1>
+                <p>ArcGIS, Tableau, Gephi</p>
+                <h1 class="f3 text--sanSerif">Others</h1>
+                <p>R</p>
+            </div>
+        </div>
+        <div class="tl-item">
+            <div class="tl-bg" style="background-image: url(https://placeimg.com/803/803/nature)"></div>
+            <div class="tl-title">
+                <p class="f2 heading--sanSerif">Others</p>
+            </div>
+            <div class="tl-content">
+                <h1 class="f3 text--sanSerif">Applications</h1>
+                <p>Photoshop, Microsoft Offices</p>
+                <h1 class="f3 text--sanSerif">Cloud Structures</h1>
+                <p>Amazon Web Services and Google Firebase</p>
+                <h1 class="f3 text--sanSerif">Hardware</h1>
+                <p>Raspberry Pi and Arduino</p>
+                <h1 class="f3 text--sanSerif">Others</h1>
+                <p>Git Workflow</p>
+            </div>
+        </div>
+    </section>
+    <div class="timeline-container" id="timeline-anchor">
+        <div class="header">
+            <h1>Weiest</h1>
+            <h2>A timeline that shows my journey.</h2>
+        </div>
+        <div class="timeline-area">
+            <div id="timeline">
+                <div class="timeline-div">
+                    <section class="year">
+                        <h3>1993</h3>
+                        <section>
+                            <h4></h4>
+                            <ul>
+                                <li>Wei was born in the small island of Singapore on 6th July 1993</li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section class="year">
+                        <h3>2000</h3>
+                        <section>
+                            <h4>January</h4>
+                            <ul>
+                                <li>Started compulsory education in a neighbourhood school</li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section class="year">
+                        <h3>2008</h3>
+                        <section>
+                            <h4>March</h4>
+                            <ul>
+                                <li>Started learning about <b>Programming</b></li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section class="year">
+                        <h3>2009</h3>
+                        <section>
+                            <h4>December</h4>
+                            <ul>
+                                <li>Completed 10 years of compulsory education</li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section class="year">
+                        <h3>2010</h3>
+                        <section>
+                            <h4>January</h4>
+                            <ul>
+                                <li>Enrolled in <b>Institute of Technical Education</b> for <b>Nitec in Information-Communication Technologies</b></li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h4>October</h4>
+                            <ul>
+                                <li class="club">Recommend to be the replacement <b>Co-Executive Committee of House</b> for <b>Student Council</b></li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section class="year">
+                        <h3>2011</h3>
+                        <section>
+                            <h4>October</h4>
+                            <ul>
+                                <li>Participated in an <b>Lan Management Exchange Program</b> to <b>Kirkwood Community College, Cedar Rapids, Iowa</b></li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h4>December</h4>
+                            <ul>
+                                <li class="education">Graduated from the <b>Institute of Technical Education</b> with <b>Nitec in Information-Communication Technologies</b></li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section class="year">
+                        <h3>2012</h3>
+                        <section>
+                            <h4>March</h4>
+                            <ul>
+                                <li>Enrolled into <b>Republic Polytechnic</b> for <b>Diploma of Information-Communication Systems</b></li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section class="year">
+                        <h3>2014</h3>
+                        <section>
+                            <h4>March</h4>
+                            <ul>
+                                <li>Participated in <span class="highlight" data-bs-toggle="modal" data-bs-target="#modalTFScale">Temasek Foundation Specialists' Community Action and Leadership</span>
+                                    (Inbound) Exchange Programme as the <b>Technical Leader</b>
+                                </li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h4>September</h4>
+                            <ul>
+                                <li>Participated in <span class="highlight" data-bs-toggle="modal" data-bs-target="#modalTFScale">Temasek Foundation Specialists' Community Action and Leadership</span>
+                                    (Outboud) Exchange Programme as the <b>Overall Leader</b>
+                                </li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h4>October</h4>
+                            <ul>
+                                <li class="work">Started Internship as a <b>Full-stack Developer</b> with <span class="highlight" data-bs-toggle="modal" data-bs-target="#modalDigistoreSolutions">Digistore Solutions (S) Pte Ltd</span> to develop a
+                                    <span class="highlight" data-bs-toggle="modal" data-bs-target="#modalDigistoreSolutions">Telemedicine system</span>
+                                </li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section class="year">
+                        <h3>2015</h3>
+                        <section>
+                            <h4>April</h4>
+                            <ul>
+                                <li>Ended Internship with <b>Digistore Solutions (S) Pte Ltd</b></li>
+                                <li class="work">Started working part-time with <span class="highlight" data-bs-toggle="modal" data-bs-target="#modalDigistoreSolutions">Digistore Solutions (S) Pte Ltd</span> as a <b>Full-stack Developer</b> to
+                                    develop an
+                                    <span class="highlight" data-bs-toggle="modal" data-bs-target="#modalDigistoreSolutions">Radio Frequency Identification System</span>
+                                </li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h4>May</h4>
+                            <ul>
+                                <li class="education">Graduated from <b>Republic Polytechnic</b> with <b>Diploma of Information-Communication Systems</b></li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section class="year">
+                        <h3>2016</h3>
+                        <section>
+                            <h4>September</h4>
+                            <ul>
+                                <li>Ended part-time employement with <b>Digistore Solutions (S) Pte Ltd</b></li>
+                                <li>Mandatory conscription (<b>National Service</b>) to <b>Singapore Armed Forces</b></li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section class="year">
+                        <h3>2017</h3>
+                        <section>
+                            <h4>September</h4>
+                            <ul>
+                                <li>Disrupted <b>National Service</b></li>
+                                <li>Enrolled into <b>Bachelor of Science (Information Systems)</b> in <b>Singapore Management University</b></li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h4>October</h4>
+                            <ul>
+                                <li class="club">Joined <b>SMU eSports</b> as a <b>Events Executive</b></li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h4>December</h4>
+                            <ul>
+                                <li>Resumed <b>National Service</b></li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section class="year">
+                        <h3>2018</h3>
+                        <section>
+                            <h4>January</h4>
+                            <ul>
+                                <li>Completed <b>National Service</b> with Testimonial</li>
+                                <li>Assigned as <b>Safety In-charge</b> for <b>SMU eSports</b>, certified for <b>BizSafe Level 2</b></li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section class="year">
+                        <h3>2019</h3>
+                        <section>
+                            <h4>January</h4>
+                            <ul>
+                                <li>Elected as <b>President</b> for <b>SMU eSports</b> for the year of 2019</li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section class="year">
+                        <h3>2020</h3>
+                        <section>
+                            <h4>November</h4>
+                            <ul>
+                                <li class="work">Started Internship with <span class="highlight" data-bs-toggle="modal" data-bs-target="#modalSangsoft">Sangsoft Joint Stock Company</span> as an <b>Intern Developer</b></li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section class="year">
+                        <h3>2021</h3>
+                        <section>
+                            <h4>January</h4>
+                            <ul>
+                                <li>Started <span class="highlight" data-bs-toggle="modal" data-bs-target="#modalFYP">Project Flourishing Our Locale</span></li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h4>April</h4>
+                            <ul>
+                                <li>Completed <span class="highlight" data-bs-toggle="modal" data-bs-target="#modalFYP">Project Flourishing Our Locale</span></li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h4>May</h4>
+                            <ul>
+                                <li>Ended Internship with <span class="highlight" data-bs-toggle="modal" data-bs-target="#modalSangsoft">Sangsoft Joint Stock Company</span> as an <b>Intern Developer</b></li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h4>June</h4>
+                            <ul>
+                                <li class="education">Graduated from <b>Singapore Management University</b> with <b>Bachelor of Science (Information Systems)</b></li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h4>Today</h4>
+                            <ul>
+                                <li>Looking for Work</li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section class="year">
+                        <h3>????</h3>
+                        <section>
+                            <h4>???</h4>
+                            <ul>
+                                <li>Built a <a href="." style="text-decoration: none; color: inherit;"><span class="highlight">time machine</span></a> to go back to the start.</li>
+                            </ul>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal - TF Scale Foundation -->
+    <div class="modal fade" id="modalTFScale" tabindex="-1" aria-labelledby="modalTFScale" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTFScale">Temasek Foundation Specialists' Community Action and Leadership (TF SCALE) Exchange Programme 2014</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Temasek Foundation (TF) and three of Singapore’s polytechnics – Nanyang Polytechnic (NYP), Republic Polytechnic (RP), and Singapore Polytechnic (SP) – have partnered with 10 technical and vocational education and training
+                        (TVET) colleges from across ASEAN to launch the Temasek Foundation Specialists’ Community Action and Leadership Exchange (TF SCALE), a student leadership exchange program. Temasek Foundation has committed a grant of about S$1
+                        million towards the program.
+                    </p>
+                    <p>
+                        A total of 300 students – comprising 150 from Singapore and 150 from Cambodia, Indonesia, Philippines, Thailand, and Vietnam – participated in the inaugural run of TF SCALE.
+                    </p>
+                    <hr>
+                    <p>
+                        For the inbound portion programme, NYP, RP and SP each hosted 50 students from around the region.
+                        During the four-week programme in Singapore, the TF SCALE scholars engaged in
+                        various TVET-related academic programmes and participated in a series of workshops where
+                        they worked in teams to apply technical skills and knowledge to develop social innovation
+                        projects with their Singaporean counterparts.
+                    </p>
+                    <p>
+                        As the <b>Technical Leader</b> for the inbound portion of the program, my responsibility was to
+                        conduct workshops introducing students to the Raspberry Pi, managing inventory, and supporting
+                        students by guiding and pointing them towards the right direction for their social innovation projects which
+                        solve real-world problems.
+                    </p>
+                    <hr>
+                    <p>
+                        Following this, the 150 TF SCALE scholars from Singapore (50 from each of the three
+                        polytechnics) were attached to one of the regional TVET institutions for a period of two
+                        weeks. Here, the Singapore scholars joined their regional counterparts to implement their
+                        co-developed social innovation projects to benefit the local communities.
+                    </p>
+                    <p>
+                        As the <b>Overall Leader</b> for the outbound portion of the programme, my resposibility was
+                        to plan, support, and assist both the "Social" and "Technical" teams in Malang, Indonesia. <br>
+                    </p>
+                    <p>
+                        The <b>Social Team</b>'s conducted an excersion to the nearby Orphanage in the slums to donate and
+                        interact with the children for a day.<br>
+                        The <b>Technical Team</b> continued work with the students from Polytechnic of Malang with their projects,
+                        from testing to deploying the devices.
+                    </p>
+                    <span class="badge bg-secondary">Linux</span>
+                    <span class="badge bg-secondary">Bash</span>
+                    <span class="badge bg-secondary">Python</span>
+                    <span class="badge bg-secondary">Raspbery Pi</span>
+                    <span class="badge bg-secondary">Electronics</span>
+                    <span class="badge bg-secondary">Leadership</span>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.temasekfoundation-international.org.sg/file/our-newsroom/news-releases/2014/28-mar-2014-media-release-tf-scale-launch-event-28mar2014-web.pdf"><button type="button" class="btn btn-primary">Source</button></a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal - Digistore Solutions -->
+    <div class="modal fade" id="modalDigistoreSolutions" tabindex="-1" aria-labelledby="modalDigistoreSolutions" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalDigistoreSolutions">Full Stack Developer @ Digistore Solutions (S) Pte Ltd</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Telemedicine System</h6>
+                    <p>
+                        To build and develop a backend infrastructure to record, process, and store patients' recording of blood pressure,
+                        blood sugar content, and other measures from medical devices.<br>
+                        Additionally, to built a PHP application/dashboard for doctors to view, organize and monitor patient details.
+                    </p>
+                    <span class="badge bg-secondary">Windows Server</span>
+                    <span class="badge bg-secondary">Microsoft SQL Server</span>
+                    <span class="badge bg-secondary">MsSQL</span>
+                    <span class="badge bg-secondary">Internet Information Services</span>
+                    <span class="badge bg-secondary">PHP</span>
+                    <hr>
+                    <h6>Radio Frequency Identification Attendance System</h6>
+                    <p>
+                        To develop a Radio Frequency Identification (RFID) Attendance System for a primary school to allow quicker attendance taking and student tracking.<br>
+                        It includes setting up RFID Scanners, systems, and software on-site at the primary school and building a PHP application/dashboard to view attendance, monitor movement, and generate reports.
+                    </p>
+                    <span class="badge bg-secondary">Linux Server</span>
+                    <span class="badge bg-secondary">Apache</span>
+                    <span class="badge bg-secondary">MySQL</span>
+                    <span class="badge bg-secondary">PHP</span>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal - Sangsoft Stock Company -->
+    <div class="modal fade" id="modalSangsoft" tabindex="-1" aria-labelledby="modalSangsoft" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalSangsoft">Web Developer @ Sangsoft Joint Stock Company</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        This Part-Time Virtual Internship, the Company is located in Ho Chi Minh City, Vietnam.<br>
+                        Working directly with the CTO, My responsibilities include assisting, implementing, and improving UI/UX elements of the existing application built on React. Such as redesigning a new customer journey process and changes to how
+                        information is displayed.<br>
+                        Another task was building a new API endpoint used to integrate with a chatbot for data collection purposes.
+                    </p>
+                    <span class="badge bg-secondary">Javascript/Typescript</span>
+                    <span class="badge bg-secondary">NodeJS</span>
+                    <span class="badge bg-secondary">React</span>
+                    <span class="badge bg-secondary">Yarn</span>
+                    <span class="badge bg-secondary">Linux</span>
+                    <span class="badge bg-secondary">Google Firebase</span>
+                    <span class="badge bg-secondary">Git Workflows</span>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal - Final Year Project -->
+    <div class="modal fade" id="modalFYP" tabindex="-1" aria-labelledby="modalFYP" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalFYP">Backend Developer for Team Florescence</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        This is a Final Year Project involving 6 students (3 Software Developer and 3 Business Analytics) and collaborating with Urban Redevelopment Authority.
+                    </p>
+                    <p>
+                        FFlourishing our Locale aims to create an analytics dashboard to allow these businesses to obtain greater insights into their customers' sentiments by consolidating reviews, updating periodically, allow businesses to react to
+                        shifting sentiments, and improve the overall experience.
+                    </p>
+                    <p>
+                        The main deliverables of the project include an analytics dashboard for each individual user that allows them to view their customer's sentiments, word cloud (Verb-Noun Pair), and sentiments over time.
+                        As well as, an administrative dashboard to have an overview of the precinct that allows administrators to view the spatial limits of the precincts, ranking (normalized), customer's sentiments over time, and word cloud. And
+                        easily compare between subzones.
+                    <p>
+                    <p>
+                        My main responsibilities for this project include.
+                    <ul>
+                        <li>System architecture design</li>
+                        <li>Programming analytics functions into objects</li>
+                        <li>Implementing programming principles (DRY, KISS, Single Responsibility Model, etc.)</li>
+                        <li>Improving the complexity/efficiency of the program.</li>
+                        <li>Backend Application Programming Interfaces for data retrieval</li>
+                    </ul>
+                    </p>
+                    <span class="badge bg-secondary">Python</span>
+                    <span class="badge bg-secondary">Numpy/Pandas</span>
+                    <span class="badge bg-secondary">Natural Langauge Processing</span>
+                    <span class="badge bg-secondary">NLTK</span>
+                    <span class="badge bg-secondary">VADER</span>
+                    <span class="badge bg-secondary">SpaCy</span>
+                    <span class="badge bg-secondary">TextBlob</span>
+                    <span class="badge bg-secondary">Amazon Web Services</span>
+                    <span class="badge bg-secondary">Flask</span>
+                    <span class="badge bg-secondary">MariaDB</span>
+                    <span class="badge bg-secondary">MySQL</span>
+                    <span class="badge bg-secondary">Object Oriented Programming</span>
+                    <span class="badge bg-secondary">Web Scraping</span>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/weichia2017/florescence"><button type="button" class="btn btn-primary">Github</button></a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
