@@ -419,21 +419,29 @@ div.timeline-container .timeline-area {
 }
 
 #timeline section.year section ul li:before {
-    content: '-';
+    content: '·';
     margin-left: -.5rem;
     padding-right: .3rem;
 }
 
 #timeline section.year section ul li.education:after {
-    content: '🎓';
+    content: ' 🎓';
 }
 
 #timeline section.year section ul li.work:after {
-    content: '👨‍💻';
+    content: ' 👨‍💻';
 }
 
 #timeline section.year section ul li.club:after {
-    content: '🏃🏻';
+    content: ' 🏃🏻';
+}
+
+#timeline section.year section ul li.project:after {
+    content: ' 💼';
+}
+
+#timeline section.year section ul li.award:after {
+    content: ' 📜';
 }
 
 #timeline section.year section ul li:not(:first-child) {
