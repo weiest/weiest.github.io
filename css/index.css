@@ -120,7 +120,7 @@ a:hover {
     transition: width 0.5s ease;
 }
 
-.tl-item:before, .tl-item:after {
+.tl-item::before, .tl-item::after {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     content: '';
@@ -131,14 +131,14 @@ a:hover {
     height: 100%;
 }
 
-.tl-item:after {
+.tl-item::after {
     background: rgba(3, 22, 37, 0.85);
     opacity: 1;
     -webkit-transition: opacity 0.5s ease;
     transition: opacity 0.5s ease;
 }
 
-.tl-item:before {
+.tl-item::before {
     background: -webkit-linear-gradient(top, transparent 0%, black 25%, black 50%, black 75%, black 100%);
     background: linear-gradient(to bottom, transparent 0%, black 25%, black 50%, black 75%, black 100%);
     z-index: 1;
@@ -155,11 +155,11 @@ a:hover {
     width: 66.666% !important;
 }
 
-.tl-item:hover:after {
+.tl-item:hover::after {
     opacity: 0;
 }
 
-.tl-item:hover:before {
+.tl-item:hover::before {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0) translateY(0);
     transform: translate3d(0, 0, 0) translateY(0);
@@ -259,7 +259,7 @@ div.timeline-container .header {
     position: relative;
 }
 
-div.timeline-container .header:after {
+div.timeline-container .header::after {
     content: '';
     position: absolute;
     bottom: -5rem;
@@ -320,7 +320,7 @@ div.timeline-container .timeline-area {
     margin-top: 5rem;
 }
 
-#timeline div.timeline-div:after {
+#timeline div.timeline-div::after {
     content: '';
     width: 2px;
     position: absolute;
@@ -398,7 +398,7 @@ div.timeline-container .timeline-area {
     margin-bottom: 0px;
 }
 
-#timeline section.year section ul:first-of-type:after {
+#timeline section.year section ul:first-of-type::after {
     content: '';
     width: 10px;
     height: 10px;
@@ -418,30 +418,39 @@ div.timeline-container .timeline-area {
     margin-left: .5rem;
 }
 
-#timeline section.year section ul li:before {
+#timeline section.year section ul li::before {
     content: '·';
     margin-left: -.5rem;
     padding-right: .3rem;
 }
 
-#timeline section.year section ul li.education:after {
+#timeline section.year section ul li::after {
+    font-size: 75%;
+    vertical-align: super;
+}
+
+#timeline section.year section ul li.education::after {
     content: ' 🎓';
 }
 
-#timeline section.year section ul li.work:after {
+#timeline section.year section ul li.work::after {
     content: ' 👨‍💻';
 }
 
-#timeline section.year section ul li.club:after {
+#timeline section.year section ul li.club::after {
     content: ' 🏃🏻';
 }
 
-#timeline section.year section ul li.project:after {
+#timeline section.year section ul li.project::after {
     content: ' 💼';
 }
 
-#timeline section.year section ul li.award:after {
-    content: ' 📜';
+#timeline section.year section ul li.award::after {
+    content: '📜';
+}
+
+#timeline section.year section ul li.volunteer::after {
+    content: '⛪';
 }
 
 #timeline section.year section ul li:not(:first-child) {
