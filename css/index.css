@@ -16,7 +16,7 @@ body {
     height: inherit;
     display: flex;
     flex-direction: column;
-    font-family: 'Fira Sans', sans-serif !important;
+    font-family: "Fira Sans", sans-serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #79838c;
@@ -39,7 +39,11 @@ a:hover {
 }
 
 @-moz-keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
         -moz-transform: translateY(0);
         transform: translateY(0);
     }
@@ -56,7 +60,11 @@ a:hover {
 }
 
 @-webkit-keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
@@ -73,7 +81,11 @@ a:hover {
 }
 
 @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
         -moz-transform: translateY(0);
         -ms-transform: translateY(0);
         -webkit-transform: translateY(0);
@@ -120,10 +132,11 @@ a:hover {
     transition: width 0.5s ease;
 }
 
-.tl-item::before, .tl-item::after {
+.tl-item::before,
+.tl-item::after {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     top: 0;
@@ -139,8 +152,22 @@ a:hover {
 }
 
 .tl-item::before {
-    background: -webkit-linear-gradient(top, transparent 0%, black 25%, black 50%, black 75%, black 100%);
-    background: linear-gradient(to bottom, transparent 0%, black 25%, black 50%, black 75%, black 100%);
+    background: -webkit-linear-gradient(
+        top,
+        transparent 0%,
+        black 25%,
+        black 50%,
+        black 75%,
+        black 100%
+    );
+    background: linear-gradient(
+        to bottom,
+        transparent 0%,
+        black 25%,
+        black 50%,
+        black 75%,
+        black 100%
+    );
     z-index: 1;
     opacity: 0;
     -webkit-transform: translate3d(0, 0, 0) translateY(50%);
@@ -148,7 +175,8 @@ a:hover {
     -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
     transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
     transition: opacity 0.5s ease, transform 0.5s ease;
-    transition: opacity 0.5s ease, transform 0.5s ease, -webkit-transform 0.5s ease;
+    transition: opacity 0.5s ease, transform 0.5s ease,
+        -webkit-transform 0.5s ease;
 }
 
 .tl-item:hover {
@@ -166,7 +194,8 @@ a:hover {
     -webkit-transition: opacity 1s ease, -webkit-transform 1s ease 0.25s;
     transition: opacity 1s ease, -webkit-transform 1s ease 0.25s;
     transition: opacity 1s ease, transform 1s ease 0.25s;
-    transition: opacity 1s ease, transform 1s ease 0.25s, -webkit-transform 1s ease 0.25s;
+    transition: opacity 1s ease, transform 1s ease 0.25s,
+        -webkit-transform 1s ease 0.25s;
 }
 
 .tl-item:hover .tl-content {
@@ -201,7 +230,8 @@ a:hover {
 }
 
 .tl-content h1 {
-    font-family: 'Pathway Gothic One', Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial,
+        sans-serif;
     text-transform: uppercase;
     color: #1779cf;
     font-size: 1.44rem;
@@ -218,7 +248,8 @@ a:hover {
 }
 
 .tl-title p {
-    font-family: 'Pathway Gothic One', Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial,
+        sans-serif;
     font-size: 1.728rem;
     line-height: 0;
 }
@@ -260,7 +291,7 @@ div.timeline-container .header {
 }
 
 div.timeline-container .header::after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: -5rem;
     left: 0rem;
@@ -268,15 +299,27 @@ div.timeline-container .header::after {
     display: block;
     width: 100%;
     z-index: 300;
-    background: -moz-linear-gradient(top, white 20%, rgba(255, 255, 255, 0) 100%);
-    background: -webkit-linear-gradient(top, white 20%, rgba(255, 255, 255, 0) 100%);
-    background: linear-gradient(to bottom, white 20%, rgba(255, 255, 255, 0) 100%);
+    background: -moz-linear-gradient(
+        top,
+        white 20%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    background: -webkit-linear-gradient(
+        top,
+        white 20%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    background: linear-gradient(
+        to bottom,
+        white 20%,
+        rgba(255, 255, 255, 0) 100%
+    );
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=0);
 }
 
 div.timeline-container .header h1 {
-    margin-top: .8rem;
-    margin-bottom: .5rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
     font-weight: 200;
     font-size: 1.6em;
     letter-spacing: 0.1rem;
@@ -309,7 +352,7 @@ div.timeline-container .timeline-area {
 }
 
 /* div.timeline-container .timeline-area::-webkit-scrollbar {
-  display: none;
+display: none;
 } */
 #timeline {
     position: relative;
@@ -321,14 +364,14 @@ div.timeline-container .timeline-area {
 }
 
 #timeline div.timeline-div::after {
-    content: '';
+    content: "";
     width: 2px;
     position: absolute;
-    top: .5rem;
+    top: 0.5rem;
     bottom: 0rem;
     left: 60px;
     z-index: 1;
-    background: #C5C5C5;
+    background: #c5c5c5;
 }
 
 #timeline h3 {
@@ -365,12 +408,12 @@ div.timeline-container .timeline-area {
 #timeline section.year section h4 {
     position: absolute;
     bottom: 0;
-    font-size: .9em;
+    font-size: 0.9em;
     font-weight: 400;
     line-height: 1.2em;
     margin: 0;
     padding: 0 0 0 89px;
-    color: #C5C5C5;
+    color: #c5c5c5;
 }
 
 @media (min-width: 62em) {
@@ -399,11 +442,11 @@ div.timeline-container .timeline-area {
 }
 
 #timeline section.year section ul:first-of-type::after {
-    content: '';
+    content: "";
     width: 10px;
     height: 10px;
-    background: #C5C5C5;
-    border: 1px solid #FFFFFF;
+    background: #c5c5c5;
+    border: 1px solid #ffffff;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -415,13 +458,13 @@ div.timeline-container .timeline-area {
 }
 
 #timeline section.year section ul li {
-    margin-left: .5rem;
+    margin-left: 0.5rem;
 }
 
 #timeline section.year section ul li::before {
-    content: '·';
-    margin-left: -.5rem;
-    padding-right: .3rem;
+    content: "·";
+    margin-left: -0.5rem;
+    padding-right: 0.3rem;
 }
 
 #timeline section.year section ul li::after {
@@ -430,31 +473,31 @@ div.timeline-container .timeline-area {
 }
 
 #timeline section.year section ul li.education::after {
-    content: ' 🎓';
+    content: " 🎓";
 }
 
 #timeline section.year section ul li.work::after {
-    content: ' 👨‍💻';
+    content: " 👨‍💻";
 }
 
 #timeline section.year section ul li.club::after {
-    content: ' 🏃🏻';
+    content: " 🏃🏻";
 }
 
 #timeline section.year section ul li.project::after {
-    content: ' 💼';
+    content: " 💼";
 }
 
 #timeline section.year section ul li.award::after {
-    content: '📜';
+    content: "📜";
 }
 
 #timeline section.year section ul li.volunteer::after {
-    content: '⛪';
+    content: "⛪";
 }
 
 #timeline section.year section ul li:not(:first-child) {
-    margin-top: .4rem;
+    margin-top: 0.4rem;
 }
 
 #timeline section.year section ul li span.highlight {
