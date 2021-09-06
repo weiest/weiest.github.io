@@ -505,3 +505,7 @@ display: none;
     font-weight: 500;
     cursor: pointer;
 }
+
+.badge {
+    font-weight: normal !important;
+}
