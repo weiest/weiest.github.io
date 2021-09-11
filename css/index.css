@@ -283,11 +283,12 @@ div.timeline-container {
 div.timeline-container .header {
     height: auto;
     text-align: center;
-    /* background: slategrey; */
-    /* color: ghostwhite; */
-    /* padding: 2.3rem 1rem 2.3rem 1rem; */
     padding: 2rem 1rem 1rem 1rem;
-    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 3;
 }
 
 div.timeline-container .header::after {
