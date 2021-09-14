@@ -497,7 +497,7 @@ display: none;
 }
 
 #timeline section.year section ul li::after {
-    font-size: 75%;
+    font-size: 60%;
     vertical-align: super;
 }
 
