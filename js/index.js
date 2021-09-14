@@ -74,9 +74,4 @@ window.onload = function () {
             );
         }
     }
-    let css = document.createElement("style");
-    css.type = "text/css";
-    css.innerHTML =
-        ".typewrite > .wrap { padding-right:0.1em; border-right: 0.08em solid #000}";
-    document.body.appendChild(css);
 };
