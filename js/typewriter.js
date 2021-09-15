@@ -43,7 +43,7 @@ class TypeWriter {
 }
 
 window.onload = function () {
-    let elements = document.getElementsByClassName("typewrite");
+    let elements = document.getElementsByClassName("typewriter");
     for (let element of elements) {
         let contents = element.getAttribute("data-contents");
         let speed = element.getAttribute("data-speed");
