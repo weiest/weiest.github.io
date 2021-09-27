@@ -108,7 +108,6 @@
                 </div>
             </div>
         </div>
-
         <div class="downArrow bounce mx-auto text-center">
             <a href="#segments" style="text-decoration: none; color: inherit;">
                 <p>Scroll down to find out more about me!</p>
@@ -116,8 +115,7 @@
                     src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSLQodC70L7QuV8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0yNC4yODUsMTEuMjg0TDE2LDE5LjU3MWwtOC4yODUtOC4yODhjLTAuMzk1LTAuMzk1LTEuMDM0LTAuMzk1LTEuNDI5LDAgIGMtMC4zOTQsMC4zOTUtMC4zOTQsMS4wMzUsMCwxLjQzbDguOTk5LDkuMDAybDAsMGwwLDBjMC4zOTQsMC4zOTUsMS4wMzQsMC4zOTUsMS40MjgsMGw4Ljk5OS05LjAwMiAgYzAuMzk0LTAuMzk1LDAuMzk0LTEuMDM2LDAtMS40MzFDMjUuMzE5LDEwLjg4OSwyNC42NzksMTAuODg5LDI0LjI4NSwxMS4yODR6IiBmaWxsPSIjMTIxMzEzIiBpZD0iRXhwYW5kX01vcmUiLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4=" />
             </a>
         </div>
-
-        <div class="container col-xxl-8 px-4 py-5" id="information">
+        <div class="container col-xxl-8 px-4 py-5" id="segments">
             <div class="row align-items-center g-5 py-5">
                 <div class="col-2 col-sm-6" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom">
                     <img src="/img/segments/pexels-development.jpg" class="rounded d-block mx-auto float-end"
@@ -131,14 +129,13 @@
                         programming langauges, I can conceptualize ideas and solutions for problems; knowing what works
                         and what doesn't.</p>
                     <div class="d-grid gap-2 d-flex justify-content-start">
-                        <a href="skills.html" target="_blank">
-                            <button type="button" class="btn btn-primary btn-xs px-4">Find out more!</button>
-                        </a>
+                        <button type="button" class="btn btn-primary btn-xs px-4" data-bs-toggle="modal"
+                            data-bs-target="#modalSkills">
+                            Find out more!
+                        </button>
                     </div>
                 </div>
             </div>
-
-
             <div class="row flex-row-reverse align-items-center g-5 py-5 text-end">
                 <div class="col-2 col-sm-6" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">
                     <img src="/img/segments/pexels-analytics.jpg" class="rounded d-block mx-auto float-start"
@@ -150,9 +147,10 @@
                     <p>With my indepth knowledge in programming and understanding of analytics techniques, I bridge
                         the gap between Business Analysts and Software Developers.</p>
                     <div class="d-grid gap-2 d-flex justify-content-end">
-                        <a href="skills.html" target="_blank">
-                            <button type="button" class="btn btn-primary btn-xs px-4">Find out more!</button>
-                        </a>
+                        <button type="button" class="btn btn-primary btn-xs px-4" data-bs-toggle="modal"
+                            data-bs-target="#modalSkills">
+                            Find out more!
+                        </button>
                     </div>
                 </div>
             </div>
@@ -170,7 +168,6 @@
                 </div>
             </div>
         </div>
-
         <div class="timeline-container" id="timeline-anchor">
             <div class="header">
                 <h1 class="display-5 fw-bold">Weiest</h1>
@@ -527,11 +524,161 @@
             </div>
         </div>
 
+        <!-- Modal: Skills -->
+        <div class="modal fade" id="modalSkills" tabindex="-1" aria-labelledby="modalSkills" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Wei's Skills</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <h1>Skills</h1>
+                            <hr class="col-3 col-md-2">
+                            <p class="fs-5 col-md-8">
+                                Having been through three different tertiary education insitute
+                                focused on Information Technology (specialization in Software Development) and has
+                                touched on different programming languages, technologies, and skills, these are the
+                                skillsets that I currently hold.
+                            </p>
+                            <hr class="col-3 col-md-2 mb-5">
+
+                            <div class="row g-5 mb-5">
+                                <div class="col-md-6">
+                                    <h2>Software Development</h2>
+                                    <span class="lead">Python Based Langauges</span>
+                                    <div class="mt-1 mb-3">
+                                        <img src="https://img.shields.io/badge/Python-Advanced-blue" class="pr-1">
+                                        <img src="https://img.shields.io/badge/Flask-Intemediate-orange" class="pr-1">
+                                        <img src="https://img.shields.io/badge/Dash-Beginner-brightgreen" class="pr-1">
+                                    </div>
+                                    <span class="lead">Java Based Langauges</span>
+                                    <div class="mt-1 mb-3">
+                                        <img src="https://img.shields.io/badge/Java-Intemediate-orange" class="pr-1">
+                                        <img src="https://img.shields.io/badge/PEGA-Beginner-brightgreen" class="pr-1">
+                                    </div>
+                                    <span class="lead">Web Development</span>
+                                    <div class="mt-1 mb-3">
+                                        <img src="https://img.shields.io/badge/Javascript-Advanced-blue" class="pr-1">
+                                        <img src="https://img.shields.io/badge/PHP-Advanced-blue" class="pr-1">
+                                        <img src="https://img.shields.io/badge/HTML/CSS-Advanced-blue" class="pr-1">
+                                        <img src="https://img.shields.io/badge/Empress-Beginner-brightgreen"
+                                            class="pr-1">
+                                        <img src="https://img.shields.io/badge/Vue-Intemediate-orange" class="pr-1">
+                                        <img src="https://img.shields.io/badge/React-Beginner-brightgreen" class="pr-1">
+                                        <img src="https://img.shields.io/badge/jQuery-Intemediate-orange" class="pr-1">
+                                        <img src="https://img.shields.io/badge/NodeJS-Beginner-brightgreen"
+                                            class="pr-1">
+                                    </div>
+                                    <span class="lead">Database Query Langauges</span>
+                                    <div class="mt-1 mb-3">
+                                        <img src="https://img.shields.io/badge/MySQL-Intemediate-orange" class="pr-1">
+                                        <img src="https://img.shields.io/badge/MSSQL-Intemediate-orange" class="pr-1">
+                                    </div>
+                                    <span class="lead">Other Langauges</span>
+                                    <div class="mt-1 mb-3">
+                                        <img src="https://img.shields.io/badge/R-Beginner-brightgreen" class="pr-1">
+                                    </div>
+                                    <span class="lead">Infastructure</span>
+                                    <div class="mt-1 mb-3">
+                                        <img src="https://img.shields.io/badge/Amazon Web Services-Intemediate-orange"
+                                            class="pr-1">
+                                        <img src="https://img.shields.io/badge/Google Firebase-Beginner-brightgreen"
+                                            class="pr-1">
+                                    </div>
+                                    <span class="lead">Concepts</span>
+                                    <div class="mt-1 mb-3">
+                                        <img src="https://img.shields.io/badge/Object Oriented Programming-Advanced-blue"
+                                            class="pr-1">
+                                        <img src="https://img.shields.io/badge/Design Patterns-Intemediate-orange"
+                                            class="pr-1">
+                                        <img src="https://img.shields.io/badge/Design Principles-Intemediate-orange"
+                                            class="pr-1">
+                                        <img src="https://img.shields.io/badge/Defensive Programming-Intemediate-orange"
+                                            class="pr-1">
+                                        <img src="https://img.shields.io/badge/Microservice Architecture-Intemediate-orange"
+                                            class="pr-1">
+                                        <img src="https://img.shields.io/badge/Data Structures-Intemediate-orange"
+                                            class="pr-1">
+                                        <img src="https://img.shields.io/badge/Program Complexity-Intemediate-orange"
+                                            class="pr-1">
+                                        <img src="https://img.shields.io/badge/Git-Intemediate-orange" class="pr-1">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <h2>Analytics</h2>
+                                    <span class="lead">Analytics with Python</span>
+                                    <div class="mt-1 mb-3">
+                                        <img src="https://img.shields.io/badge/Pandas-Advance-blue" class="pr-1">
+                                        <img src="https://img.shields.io/badge/Numpy-Intemediate-orange" class="pr-1">
+                                        <img src="https://img.shields.io/badge/NLTK-Intemediate-orange" class="pr-1">
+                                        <img src="https://img.shields.io/badge/VADER-Intemediate-orange" class="pr-1">
+                                        <img src="https://img.shields.io/badge/SpaCy-Intemediate-orange" class="pr-1">
+                                        <img src="https://img.shields.io/badge/TextBlob-Intemediate-orange"
+                                            class="pr-1">
+                                    </div>
+                                    <span class="lead">Geospatial</span>
+                                    <div class="mt-1 mb-3">
+                                        <img src="https://img.shields.io/badge/ArcGIS Pro-Intemediate-orange"
+                                            class="pr-1">
+                                    </div>
+                                    <span class="lead">Data Visualization</span>
+                                    <div class="mt-1 mb-3">
+                                        <img src="https://img.shields.io/badge/Tableau-Advance-blue" class="pr-1">
+                                        <img src="https://img.shields.io/badge/Spotfire-Intemediate-orange"
+                                            class="pr-1">
+                                        <img src="https://img.shields.io/badge/Gephi-Intemediate-orange" class="pr-1">
+                                    </div> <span class="lead">Concepts</span>
+                                    <div class="mt-1 mb-3">
+                                        <img src="https://img.shields.io/badge/Natural Langauge Processing-Advanced-blue"
+                                            class="pr-1">
+                                        <img src="https://img.shields.io/badge/Geospatial Analytics-Intemediate-orange"
+                                            class="pr-1">
+                                    </div>
+                                    <br>
+                                    <h2>Others</h2>
+                                    <span class="lead">Application</span>
+                                    <div class="mt-1 mb-3">
+                                        <img src="https://img.shields.io/badge/Microsoft Offices Suite-Advance-blue"
+                                            class="pr-1">
+                                        <img src="https://img.shields.io/badge/Adobe Photoshop-Intemediate-orange"
+                                            class="pr-1">
+                                        <img src="https://img.shields.io/badge/Sony Vegas Pro-Intemediate-orange"
+                                            class="pr-1">
+                                    </div>
+                                    <span class="lead">Businesses</span>
+                                    <div class="mt-1 mb-3">
+                                        <img src="https://img.shields.io/badge/Signavio-Intemediate-orange"
+                                            class="pr-1">
+                                        <img src="https://img.shields.io/badge/Saleforce-Intemediate-orange"
+                                            class="pr-1">
+                                    </div>
+                                    <span class="lead">Hardware</span>
+                                    <div class="mt-1 mb-3">
+                                        <img src="https://img.shields.io/badge/Raspberry Pi-Intemediate-orange"
+                                            class="pr-1">
+                                        <img src="https://img.shields.io/badge/Arduino-Beginner-brightgreen"
+                                            class="pr-1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal: Timeline related -->
         <div class="modal fade" id="modalMicro2000" tabindex="-1" aria-labelledby="modalMicro2000" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalMicro2000">Field Deployment Support at Micro 2000 Technology
+                        <h5 class="modal-title">Field Deployment Support at Micro 2000 Technology
                             Pte Ltd</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
@@ -558,7 +705,7 @@
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalTFScale">Temasek Foundation Specialists' Community Action and
+                        <h5 class="modal-title">Temasek Foundation Specialists' Community Action and
                             Leadership (TF SCALE) Exchange Programme 2014</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
@@ -629,15 +776,15 @@
                 </div>
             </div>
         </div>
-        <div class=" modal fade" id="modalDigistoreSolutions" tabindex="-1" aria-labelledby="modalDigistoreSolutions"
+        <div class="modal fade" id="modalDigistoreSolutions" tabindex="-1" aria-labelledby="modalDigistoreSolutions"
             aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalDigistoreSolutions">Full Stack Developer at
+                        <h5 class="modal-title"">Full Stack Developer at
                             Digistore Solutions
                             (S) Pte Ltd</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button type=" button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <h6>Telemedicine System</h6>
@@ -683,7 +830,7 @@
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalSangsoft">Web Developer at Sangsoft Joint Stock
+                        <h5 class="modal-title">Web Developer at Sangsoft Joint Stock
                             Company</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
@@ -724,7 +871,7 @@
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalSMUeSports">SMU eSports</h5>
+                        <h5 class="modal-title">SMU eSports</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -868,7 +1015,7 @@
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalCAREsg">Volunteer at CARE Singapore</h5>
+                        <h5 class="modal-title">Volunteer at CARE Singapore</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -905,7 +1052,7 @@
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalFlorescence">Backend Developer for Team Florescence</h5>
+                        <h5 class="modal-title">Backend Developer for Team Florescence</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
