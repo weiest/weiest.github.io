@@ -55,7 +55,8 @@
                     <h1 class="display-5 fw-bold lh-1 mb-3">Wei</h1>
                     <p class="lead typewriter" data-speed="200" data-period="2000" randomize data-contents='[ 
                         "Software Developer", "Gamer", "Analyst", "Idiot", "Otaku",
-                        "Problem Solver", "Problem Generator", "IT Support", "Asian"
+                        "Problem Solver", "Problem Generator", "IT Support", "Asian",
+                        "Expert on Bad Advices"
                     ]'>
                         <span class="wrap"></span>
                     </p>
@@ -130,8 +131,14 @@
                     <p>With several years of experience in programming/developement with different technologies and
                         programming langauges, I can conceptualize ideas and solutions for problems; knowing what works
                         and what doesn't.</p>
+                    <div class="d-grid gap-2 d-flex justify-content-start">
+                        <a href="skills.html" target="_blank">
+                            <button type="button" class="btn btn-primary btn-xs px-4">Find out more!</button>
+                        </a>
+                    </div>
                 </div>
             </div>
+
 
             <div class="row flex-row-reverse align-items-center g-5 py-5 text-end">
                 <div class="col-2 col-sm-6" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">
@@ -143,6 +150,11 @@
                     <p class="lead">I find problems (and insights) through programming</p>
                     <p>With my indepth knowledge in programming and understanding of analytics techniques, I bridge
                         the gap between Business Analysts and Software Developers, creating software for Analytics.</p>
+                    <div class="d-grid gap-2 d-flex justify-content-end">
+                        <a href="skills.html" target="_blank">
+                            <button type="button" class="btn btn-primary btn-xs px-4">Find out more!</button>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="row align-items-center g-5 py-5">
@@ -158,10 +170,9 @@
                         technologies, there is so much to learn from!</p>
                 </div>
             </div>
-
         </div>
 
-        <div id="segments">
+        <div id="segments" class="d-none">
             <section class="tl-item">
                 <div class="tl-bg" style="background-image: url(/img/segments/pexels-development.jpg)"></div>
                 <div class="tl-title">
@@ -1076,6 +1087,7 @@
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/petite-vue" defer init></script>
 
     <script>
         AOS.init();
@@ -1093,7 +1105,41 @@
         }
 
         document.getElementById("today").innerText = today
+
+        function expBar(props) {
+            switch (props.level) {
+                case 1:
+                    return { $template: '#bar-beginner' }
+                case 2:
+                    return { $template: '#bar-intermediate' }
+                case 3:
+                    return { $template: '#bar-expert' }
+            }
+        }
     </script>
+
+    <template id="bar-beginner">
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item list-group-item-danger"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item "></li>
+        </ul>
+    </template>
+    <template id="bar-intermediate">
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item list-group-item-warning"></li>
+            <li class="list-group-item list-group-item-warning"></li>
+            <li class="list-group-item "></li>
+        </ul>
+    </template>
+    <template id="bar-expert">
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item list-group-item-success"></li>
+            <li class="list-group-item list-group-item-success"></li>
+            <li class="list-group-item list-group-item-success"></li>
+        </ul>
+    </template>
+
 </body>
 
 </html>
