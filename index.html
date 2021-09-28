@@ -23,7 +23,7 @@
 
 <body>
     <main id="top">
-        <div class="container col-xxl-8 px-4 py-5">
+        <div class="container col-xxl-8 px-4 pt-5 pb-3">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6 mx-auto">
                     <div id="profileCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -107,16 +107,14 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="downArrow bounce mx-auto text-center">
-            <a href="#segments" style="text-decoration: none; color: inherit;">
+            <div class="downArrow bounce mx-auto text-center py-4">
                 <p>Scroll down to find out more about me!</p>
                 <img width="40" height="40" alt=""
                     src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSLQodC70L7QuV8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0yNC4yODUsMTEuMjg0TDE2LDE5LjU3MWwtOC4yODUtOC4yODhjLTAuMzk1LTAuMzk1LTEuMDM0LTAuMzk1LTEuNDI5LDAgIGMtMC4zOTQsMC4zOTUtMC4zOTQsMS4wMzUsMCwxLjQzbDguOTk5LDkuMDAybDAsMGwwLDBjMC4zOTQsMC4zOTUsMS4wMzQsMC4zOTUsMS40MjgsMGw4Ljk5OS05LjAwMiAgYzAuMzk0LTAuMzk1LDAuMzk0LTEuMDM2LDAtMS40MzFDMjUuMzE5LDEwLjg4OSwyNC42NzksMTAuODg5LDI0LjI4NSwxMS4yODR6IiBmaWxsPSIjMTIxMzEzIiBpZD0iRXhwYW5kX01vcmUiLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4=" />
-            </a>
+            </div>
         </div>
         <div class="container col-xxl-8 px-4 py-5" id="segments">
-            <div class="row align-items-center g-5 py-5">
+            <div class="row align-items-center g-5 py-4">
                 <div class="col-2 col-sm-6" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom">
                     <img src="/img/segments/pexels-development.jpg" class="rounded d-block mx-auto float-end"
                         height="500" loading="lazy">
@@ -136,7 +134,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row flex-row-reverse align-items-center g-5 py-5 text-end">
+            <div class="row flex-row-reverse align-items-center g-5 py-4 text-end">
                 <div class="col-2 col-sm-6" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">
                     <img src="/img/segments/pexels-analytics.jpg" class="rounded d-block mx-auto float-start"
                         height="500" loading="lazy">
@@ -154,7 +152,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row align-items-center g-5 py-5">
+            <div class="row align-items-center g-5 py-4">
                 <div class="col-2 col-sm-6" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom">
                     <img src="/img/segments/pexels-others.jpg" class="rounded d-block mx-auto float-end" height="500"
                         loading="lazy">
@@ -165,6 +163,12 @@
                     <p class="lead">There are so many things to learn from the world.</p>
                     <p>Why not learn different things and broaden my horizon? From learning new things to testing new
                         technologies, there is so much to learn from!</p>
+                    <div class="d-grid gap-2 d-flex justify-content-start">
+                        <button type="button" class="btn btn-primary btn-xs px-4" data-bs-toggle="modal"
+                            data-bs-target="#modalHobby">
+                            Hobby
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -524,12 +528,12 @@
             </div>
         </div>
 
-        <!-- Modal: Skills -->
+        <!-- Modal: Segments -->
         <div class="modal fade" id="modalSkills" tabindex="-1" aria-labelledby="modalSkills" aria-hidden="true">
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title">Wei's Skills</h5>
+                        <h5 class="modal-title"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -557,7 +561,6 @@
                                     <span class="lead">Java Based Langauges</span>
                                     <div class="mt-1 mb-3">
                                         <img src="https://img.shields.io/badge/Java-Intemediate-orange" class="pr-1">
-                                        <img src="https://img.shields.io/badge/PEGA-Beginner-brightgreen" class="pr-1">
                                     </div>
                                     <span class="lead">Web Development</span>
                                     <div class="mt-1 mb-3">
@@ -658,6 +661,7 @@
                                             class="pr-1">
                                         <img src="https://img.shields.io/badge/Saleforce-Intemediate-orange"
                                             class="pr-1">
+                                        <img src="https://img.shields.io/badge/PEGA-Beginner-brightgreen" class="pr-1">
                                     </div>
                                     <span class="lead">Hardware</span>
                                     <div class="mt-1 mb-3">
@@ -668,6 +672,44 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modalHobby" tabindex="-1" aria-labelledby="modalHobby" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <h1>Free Time</h1>
+                            <hr class="col-3 col-md-2">
+                            <p class="fs-5 col-md-8">
+                                I play video games, watch animation, read manga, test project ideas and do many random
+                                things during my free time.
+                            </p>
+                            <hr class="col-3 col-md-2">
+                            <a class="btn btn-outline-secondary px-4" href="https://github.com/weiest/">
+                                Github
+                            </a>
+                            <div class="btn-group">
+                                <a href="https://myanimelist.net/profile/Weiest"
+                                    class="btn btn-outline-secondary">MyAnimeList</a>
+                                <a href="https://myanimelist.net/animelist/Weiest"
+                                    class="btn btn-outline-secondary">Anime</a>
+                                <a href="https://myanimelist.net/mangalist/Weiest"
+                                    class="btn btn-outline-secondary">Manga</a>
+                            </div>
+                            <a class="btn btn-outline-secondary px-4" href="https://backloggery.com/Weiest">
+                                Backloggery
+                            </a>
                         </div>
                     </div>
                     <div class="modal-footer">
