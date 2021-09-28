@@ -22,8 +22,8 @@
 </head>
 
 <body>
-    <main id="top">
-        <div class="container col-xxl-8 px-4 pt-5 pb-3">
+    <main>
+        <div class="container col-xxl-8 px-4 pt-5 pb-3" id="top">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6 mx-auto">
                     <div id="profileCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -113,6 +113,7 @@
                     src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSLQodC70L7QuV8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0yNC4yODUsMTEuMjg0TDE2LDE5LjU3MWwtOC4yODUtOC4yODhjLTAuMzk1LTAuMzk1LTEuMDM0LTAuMzk1LTEuNDI5LDAgIGMtMC4zOTQsMC4zOTUtMC4zOTQsMS4wMzUsMCwxLjQzbDguOTk5LDkuMDAybDAsMGwwLDBjMC4zOTQsMC4zOTUsMS4wMzQsMC4zOTUsMS40MjgsMGw4Ljk5OS05LjAwMiAgYzAuMzk0LTAuMzk1LDAuMzk0LTEuMDM2LDAtMS40MzFDMjUuMzE5LDEwLjg4OSwyNC42NzksMTAuODg5LDI0LjI4NSwxMS4yODR6IiBmaWxsPSIjMTIxMzEzIiBpZD0iRXhwYW5kX01vcmUiLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4=" />
             </div>
         </div>
+
         <div class="container col-xxl-8 px-4 py-5" id="segments">
             <div class="row align-items-center g-5 py-4">
                 <div class="col-2 col-sm-6" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom">
@@ -172,6 +173,7 @@
                 </div>
             </div>
         </div>
+
         <div class="timeline-container" id="timeline-anchor">
             <div class="header">
                 <h1 class="display-5 fw-bold">Weiest</h1>
@@ -529,638 +531,701 @@
         </div>
 
         <!-- Modal: Segments -->
-        <div class="modal fade" id="modalSkills" tabindex="-1" aria-labelledby="modalSkills" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title"></h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="container">
-                            <h1>Skills</h1>
-                            <hr class="col-3 col-md-2">
-                            <p class="fs-5 col-md-8">
-                                Having been through three different tertiary education institute
-                                focused on Information Technology (specialization in Software Development) and
-                                opportunities allowing me to develop touched different skillsets,
-                                programming languages, technologies, and skills, these are the
-                                skillsets that I currently hold.
-                            </p>
-                            <hr class="col-3 col-md-2 mb-5">
+        <div>
+            <div class="modal fade" id="modalSkills" tabindex="-1" aria-labelledby="modalSkills" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title"></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <h1>Skills</h1>
+                                <hr class="col-3 col-md-2">
+                                <p class="fs-5 col-md-8">
+                                    Having been through three different tertiary education institute
+                                    focused on Information Technology (specialization in Software Development) and
+                                    opportunities allowing me to develop touched different skillsets,
+                                    programming languages, technologies, and skills, these are the
+                                    skillsets that I currently hold.
+                                </p>
+                                <hr class="col-3 col-md-2 mb-5">
 
-                            <div class="row g-5 mb-5">
-                                <div class="col-md-6">
-                                    <h2>Software Development</h2>
-                                    <span class="lead">Python Based Langauges</span>
-                                    <div class="mt-1 mb-3">
-                                        <img src="https://img.shields.io/badge/Python-Advanced-blue" class="pr-1">
-                                        <img src="https://img.shields.io/badge/Flask-Intemediate-orange" class="pr-1">
-                                        <img src="https://img.shields.io/badge/Dash-Beginner-brightgreen" class="pr-1">
+                                <div class="row g-5 mb-5">
+                                    <div class="col-md-6">
+                                        <h2>Software Development</h2>
+                                        <span class="lead">Python Based Langauges</span>
+                                        <div class="mt-1 mb-3">
+                                            <img src="https://img.shields.io/badge/Python-Advanced-blue" class="pr-1">
+                                            <img src="https://img.shields.io/badge/Flask-Intemediate-orange"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/Dash-Beginner-brightgreen"
+                                                class="pr-1">
+                                        </div>
+                                        <span class="lead">Java Based Langauges</span>
+                                        <div class="mt-1 mb-3">
+                                            <img src="https://img.shields.io/badge/Java-Intemediate-orange"
+                                                class="pr-1">
+                                        </div>
+                                        <span class="lead">Web Development</span>
+                                        <div class="mt-1 mb-3">
+                                            <img src="https://img.shields.io/badge/Javascript-Advanced-blue"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/PHP-Advanced-blue" class="pr-1">
+                                            <img src="https://img.shields.io/badge/HTML/CSS-Advanced-blue" class="pr-1">
+                                            <img src="https://img.shields.io/badge/Empress-Beginner-brightgreen"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/Vue-Intemediate-orange" class="pr-1">
+                                            <img src="https://img.shields.io/badge/React-Beginner-brightgreen"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/jQuery-Intemediate-orange"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/NodeJS-Beginner-brightgreen"
+                                                class="pr-1">
+                                        </div>
+                                        <span class="lead">Database Query Langauges</span>
+                                        <div class="mt-1 mb-3">
+                                            <img src="https://img.shields.io/badge/MySQL-Intemediate-orange"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/MSSQL-Intemediate-orange"
+                                                class="pr-1">
+                                        </div>
+                                        <span class="lead">Other Langauges</span>
+                                        <div class="mt-1 mb-3">
+                                            <img src="https://img.shields.io/badge/R-Beginner-brightgreen" class="pr-1">
+                                        </div>
+                                        <span class="lead">Infastructure</span>
+                                        <div class="mt-1 mb-3">
+                                            <img src="https://img.shields.io/badge/Amazon Web Services-Intemediate-orange"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/Google Firebase-Beginner-brightgreen"
+                                                class="pr-1">
+                                        </div>
+                                        <span class="lead">Concepts</span>
+                                        <div class="mt-1 mb-3">
+                                            <img src="https://img.shields.io/badge/Object Oriented Programming-Advanced-blue"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/Design Patterns-Intemediate-orange"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/Design Principles-Intemediate-orange"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/Defensive Programming-Intemediate-orange"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/Microservice Architecture-Intemediate-orange"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/Data Structures-Intemediate-orange"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/Program Complexity-Intemediate-orange"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/Git-Intemediate-orange" class="pr-1">
+                                        </div>
                                     </div>
-                                    <span class="lead">Java Based Langauges</span>
-                                    <div class="mt-1 mb-3">
-                                        <img src="https://img.shields.io/badge/Java-Intemediate-orange" class="pr-1">
-                                    </div>
-                                    <span class="lead">Web Development</span>
-                                    <div class="mt-1 mb-3">
-                                        <img src="https://img.shields.io/badge/Javascript-Advanced-blue" class="pr-1">
-                                        <img src="https://img.shields.io/badge/PHP-Advanced-blue" class="pr-1">
-                                        <img src="https://img.shields.io/badge/HTML/CSS-Advanced-blue" class="pr-1">
-                                        <img src="https://img.shields.io/badge/Empress-Beginner-brightgreen"
-                                            class="pr-1">
-                                        <img src="https://img.shields.io/badge/Vue-Intemediate-orange" class="pr-1">
-                                        <img src="https://img.shields.io/badge/React-Beginner-brightgreen" class="pr-1">
-                                        <img src="https://img.shields.io/badge/jQuery-Intemediate-orange" class="pr-1">
-                                        <img src="https://img.shields.io/badge/NodeJS-Beginner-brightgreen"
-                                            class="pr-1">
-                                    </div>
-                                    <span class="lead">Database Query Langauges</span>
-                                    <div class="mt-1 mb-3">
-                                        <img src="https://img.shields.io/badge/MySQL-Intemediate-orange" class="pr-1">
-                                        <img src="https://img.shields.io/badge/MSSQL-Intemediate-orange" class="pr-1">
-                                    </div>
-                                    <span class="lead">Other Langauges</span>
-                                    <div class="mt-1 mb-3">
-                                        <img src="https://img.shields.io/badge/R-Beginner-brightgreen" class="pr-1">
-                                    </div>
-                                    <span class="lead">Infastructure</span>
-                                    <div class="mt-1 mb-3">
-                                        <img src="https://img.shields.io/badge/Amazon Web Services-Intemediate-orange"
-                                            class="pr-1">
-                                        <img src="https://img.shields.io/badge/Google Firebase-Beginner-brightgreen"
-                                            class="pr-1">
-                                    </div>
-                                    <span class="lead">Concepts</span>
-                                    <div class="mt-1 mb-3">
-                                        <img src="https://img.shields.io/badge/Object Oriented Programming-Advanced-blue"
-                                            class="pr-1">
-                                        <img src="https://img.shields.io/badge/Design Patterns-Intemediate-orange"
-                                            class="pr-1">
-                                        <img src="https://img.shields.io/badge/Design Principles-Intemediate-orange"
-                                            class="pr-1">
-                                        <img src="https://img.shields.io/badge/Defensive Programming-Intemediate-orange"
-                                            class="pr-1">
-                                        <img src="https://img.shields.io/badge/Microservice Architecture-Intemediate-orange"
-                                            class="pr-1">
-                                        <img src="https://img.shields.io/badge/Data Structures-Intemediate-orange"
-                                            class="pr-1">
-                                        <img src="https://img.shields.io/badge/Program Complexity-Intemediate-orange"
-                                            class="pr-1">
-                                        <img src="https://img.shields.io/badge/Git-Intemediate-orange" class="pr-1">
-                                    </div>
-                                </div>
 
-                                <div class="col-md-6">
-                                    <h2>Analytics</h2>
-                                    <span class="lead">Analytics with Python</span>
-                                    <div class="mt-1 mb-3">
-                                        <img src="https://img.shields.io/badge/Pandas-Advance-blue" class="pr-1">
-                                        <img src="https://img.shields.io/badge/Numpy-Intemediate-orange" class="pr-1">
-                                        <img src="https://img.shields.io/badge/NLTK-Intemediate-orange" class="pr-1">
-                                        <img src="https://img.shields.io/badge/VADER-Intemediate-orange" class="pr-1">
-                                        <img src="https://img.shields.io/badge/SpaCy-Intemediate-orange" class="pr-1">
-                                        <img src="https://img.shields.io/badge/TextBlob-Intemediate-orange"
-                                            class="pr-1">
-                                    </div>
-                                    <span class="lead">Geospatial</span>
-                                    <div class="mt-1 mb-3">
-                                        <img src="https://img.shields.io/badge/ArcGIS Pro-Intemediate-orange"
-                                            class="pr-1">
-                                    </div>
-                                    <span class="lead">Data Visualization</span>
-                                    <div class="mt-1 mb-3">
-                                        <img src="https://img.shields.io/badge/Tableau-Advance-blue" class="pr-1">
-                                        <img src="https://img.shields.io/badge/Spotfire-Intemediate-orange"
-                                            class="pr-1">
-                                        <img src="https://img.shields.io/badge/Gephi-Intemediate-orange" class="pr-1">
-                                    </div> <span class="lead">Concepts</span>
-                                    <div class="mt-1 mb-3">
-                                        <img src="https://img.shields.io/badge/Natural Langauge Processing-Advanced-blue"
-                                            class="pr-1">
-                                        <img src="https://img.shields.io/badge/Web Scraping-Advanced-blue" class="pr-1">
-                                        <img src="https://img.shields.io/badge/Exploratory Data Analysis-Intemediate-orange"
-                                            class="pr-1">
-                                        <img src="https://img.shields.io/badge/Geospatial Analytics-Intemediate-orange"
-                                            class="pr-1">
-                                    </div>
-                                    <br>
-                                    <h2>Others</h2>
-                                    <span class="lead">Application</span>
-                                    <div class="mt-1 mb-3">
-                                        <img src="https://img.shields.io/badge/Microsoft Offices Suite-Advance-blue"
-                                            class="pr-1">
-                                        <img src="https://img.shields.io/badge/Adobe Photoshop-Intemediate-orange"
-                                            class="pr-1">
-                                        <img src="https://img.shields.io/badge/Sony Vegas Pro-Intemediate-orange"
-                                            class="pr-1">
-                                    </div>
-                                    <span class="lead">Businesses</span>
-                                    <div class="mt-1 mb-3">
-                                        <img src="https://img.shields.io/badge/Signavio-Intemediate-orange"
-                                            class="pr-1">
-                                        <img src="https://img.shields.io/badge/Saleforce-Intemediate-orange"
-                                            class="pr-1">
-                                        <img src="https://img.shields.io/badge/PEGA-Beginner-brightgreen" class="pr-1">
-                                    </div>
-                                    <span class="lead">Hardware</span>
-                                    <div class="mt-1 mb-3">
-                                        <img src="https://img.shields.io/badge/Raspberry Pi-Intemediate-orange"
-                                            class="pr-1">
-                                        <img src="https://img.shields.io/badge/Arduino-Beginner-brightgreen"
-                                            class="pr-1">
+                                    <div class="col-md-6">
+                                        <h2>Analytics</h2>
+                                        <span class="lead">Analytics with Python</span>
+                                        <div class="mt-1 mb-3">
+                                            <img src="https://img.shields.io/badge/Pandas-Advance-blue" class="pr-1">
+                                            <img src="https://img.shields.io/badge/Numpy-Intemediate-orange"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/NLTK-Intemediate-orange"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/VADER-Intemediate-orange"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/SpaCy-Intemediate-orange"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/TextBlob-Intemediate-orange"
+                                                class="pr-1">
+                                        </div>
+                                        <span class="lead">Geospatial</span>
+                                        <div class="mt-1 mb-3">
+                                            <img src="https://img.shields.io/badge/ArcGIS Pro-Intemediate-orange"
+                                                class="pr-1">
+                                        </div>
+                                        <span class="lead">Data Visualization</span>
+                                        <div class="mt-1 mb-3">
+                                            <img src="https://img.shields.io/badge/Tableau-Advance-blue" class="pr-1">
+                                            <img src="https://img.shields.io/badge/Spotfire-Intemediate-orange"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/Gephi-Intemediate-orange"
+                                                class="pr-1">
+                                        </div> <span class="lead">Concepts</span>
+                                        <div class="mt-1 mb-3">
+                                            <img src="https://img.shields.io/badge/Natural Langauge Processing-Advanced-blue"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/Web Scraping-Advanced-blue"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/Exploratory Data Analysis-Intemediate-orange"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/Geospatial Analytics-Intemediate-orange"
+                                                class="pr-1">
+                                        </div>
+                                        <br>
+                                        <h2>Others</h2>
+                                        <span class="lead">Application</span>
+                                        <div class="mt-1 mb-3">
+                                            <img src="https://img.shields.io/badge/Microsoft Offices Suite-Advance-blue"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/Adobe Photoshop-Intemediate-orange"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/Sony Vegas Pro-Intemediate-orange"
+                                                class="pr-1">
+                                        </div>
+                                        <span class="lead">Businesses</span>
+                                        <div class="mt-1 mb-3">
+                                            <img src="https://img.shields.io/badge/Signavio-Intemediate-orange"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/Saleforce-Intemediate-orange"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/PEGA-Beginner-brightgreen"
+                                                class="pr-1">
+                                        </div>
+                                        <span class="lead">Hardware</span>
+                                        <div class="mt-1 mb-3">
+                                            <img src="https://img.shields.io/badge/Raspberry Pi-Intemediate-orange"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/Arduino-Beginner-brightgreen"
+                                                class="pr-1">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="modal fade" id="modalHobby" tabindex="-1" aria-labelledby="modalHobby" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title"></h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="container">
-                            <h1>Free Time</h1>
-                            <hr class="col-3 col-md-2">
-                            <p class="fs-5 col-md-8">
-                                I play video games, watch animation, read manga, test project ideas and do many random
-                                things during my free time.
-                            </p>
-                            <hr class="col-3 col-md-2">
-                            <a class="btn btn-outline-secondary px-4" href="https://github.com/weiest/">
-                                Github
-                            </a>
-                            <div class="btn-group">
-                                <a href="https://myanimelist.net/profile/Weiest"
-                                    class="btn btn-outline-secondary">MyAnimeList</a>
-                                <a href="https://myanimelist.net/animelist/Weiest"
-                                    class="btn btn-outline-secondary">Anime</a>
-                                <a href="https://myanimelist.net/mangalist/Weiest"
-                                    class="btn btn-outline-secondary">Manga</a>
-                            </div>
-                            <a class="btn btn-outline-secondary px-4" href="https://backloggery.com/Weiest">
-                                Backloggery
-                            </a>
+            <div class="modal fade" id="modalHobby" tabindex="-1" aria-labelledby="modalHobby" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title"></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <div class="modal-body">
+                            <div class="container">
+                                <h1>Free Time</h1>
+                                <hr class="col-3 col-md-2">
+                                <p class="fs-5 col-md-8">
+                                    I play video games, watch animation, read manga, test project ideas and do many
+                                    random
+                                    things during my free time.
+                                </p>
+                                <hr class="col-3 col-md-2">
+                                <div class="row g-5 mb-5">
+                                    <div class="col-md-6">
+                                        <h2>
+                                            Gaming
+                                        </h2>
+                                        <p>I spend my nights playing video games as a way to wind down before bedtime,
+                                            either with friends. From FPS to Strategy games, I play them all and I keep
+                                            a list of games that I own and beaten, you can check it out! Get in contact
+                                            with me if you wanna join me!</p>
+                                        <a class="btn btn-outline-secondary my-1 px-4"
+                                            href="https://backloggery.com/Weiest">
+                                            Backloggery
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h2>
+                                            Anime/Manga
+                                        </h2>
+                                        <p>I keep in touch with Japanese Anime and Manga which i watch/read during my
+                                            free time. I keep track of them as well!</p>
+                                        <div class="btn-group my-1">
+                                            <a href="https://myanimelist.net/profile/Weiest"
+                                                class="btn btn-outline-secondary">MyAnimeList</a>
+                                            <a href="https://myanimelist.net/animelist/Weiest"
+                                                class="btn btn-outline-secondary">Anime</a>
+                                            <a href="https://myanimelist.net/mangalist/Weiest"
+                                                class="btn btn-outline-secondary">Manga</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h2>
+                                            Programming
+                                        </h2>
+                                        <p>When I have inspiration or ideas, i spend my time developing them and if I
+                                            feel that it is suitable to be published, I will released it on Github.</p>
+                                        <p>One such project is the current page you are looking at.</p>
+                                        <a class="btn btn-outline-secondary my-1 px-4"
+                                            href="https://github.com/weiest/">
+                                            Github
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Modal: Timeline related -->
-        <div class="modal fade" id="modalMicro2000" tabindex="-1" aria-labelledby="modalMicro2000" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Field Deployment Support at Micro 2000 Technology
-                            Pte Ltd</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                            Initially worked as a part-timer to assist in the deployment of new systems for schools
-                            before being assigned as <b>Field Deployment Support</b>: which is tasked to assist/support
-                            schools that has recently transited/rolled-out to the new system and support the school's
-                            technical assistant to clear up any loose ends, usually alone or with another member to
-                            support.
-                        </p>
-                        <span class="badge bg-secondary">Independent</span>
-                        <span class="badge bg-secondary">Support</span>
-                        <span class="badge bg-secondary">Windows</span>
-                        <span class="badge bg-secondary">Deployment</span>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="modalTFScale" tabindex="-1" aria-labelledby="modalTFScale" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Temasek Foundation Specialists' Community Action and
-                            Leadership (TF SCALE) Exchange Programme 2014</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                            Temasek Foundation (TF) and three of Singapore’s polytechnics – Nanyang Polytechnic (NYP),
-                            Republic Polytechnic (RP), and Singapore Polytechnic (SP) – have partnered with 10 technical
-                            and vocational education and training (TVET) colleges from across ASEAN to launch the
-                            Temasek Foundation Specialists’ Community Action and Leadership Exchange (TF SCALE), a
-                            student leadership exchange program. Temasek Foundation has committed a grant of about S$1
-                            million towards the program.
-                        </p>
-                        <p>
-                            A total of 300 students – comprising 150 from Singapore and 150 from Cambodia, Indonesia,
-                            Philippines, Thailand, and Vietnam – participated in the inaugural run of TF SCALE.
-                        </p>
-                        <hr>
-                        <p>
-                            For the inbound portion programme, NYP, RP and SP each hosted 50 students from around the
-                            region. During the four-week programme in Singapore, the TF SCALE scholars engaged in
-                            various TVET-related academic programmes and participated in a series of workshops where
-                            they worked in teams to apply technical skills and knowledge to develop social innovation
-                            projects with their Singaporean counterparts.
-                        </p>
-                        <p>
-                            As the <b>Technical Leader</b> for the inbound portion of the program, my responsibility was
-                            to conduct workshops introducing students to the Raspberry Pi, managing inventory, and
-                            supporting students by guiding and pointing them towards the right direction for their
-                            social innovation projects which solve real-world problems.
-                        </p>
-                        <hr>
-                        <p>
-                            Following this, the 150 TF SCALE scholars from Singapore (50 from each of the three
-                            polytechnics) were attached to one of the regional TVET institutions for a period of two
-                            weeks. Here, the Singapore scholars joined their regional counterparts to implement their
-                            co-developed social innovation projects to benefit the local communities.
-                        </p>
-                        <p>
-                            As the <b>Overall Leader</b> for the outbound portion of the programme, my resposibility was
-                            to plan, support, and assist both the "Social" and "Technical" teams in Malang, Indonesia.
-                            <br>
-                        </p>
-                        <hr>
-                        <p>
-                            The <b>Social Team</b>'s conducted an excersion to the nearby Orphanage in the slums to
-                            donate and interact with the children for a day.
-                        </p>
-                        <p>
-                            The <b>Technical Team</b> continued work with the students from Polytechnic of Malang with
-                            their projects, from testing to deploying the devices.
-                        </p>
-                        <span class="badge bg-secondary">Linux</span>
-                        <span class="badge bg-secondary">Bash</span>
-                        <span class="badge bg-secondary">Python</span>
-                        <span class="badge bg-secondary">Raspbery Pi</span>
-                        <span class="badge bg-secondary">Electronics</span>
-                        <span class="badge bg-secondary">Leadership</span>
-                    </div>
-                    <div class="modal-footer">
-                        <a
-                            href="https://www.temasekfoundation-international.org.sg/file/our-newsroom/news-releases/2014/28-mar-2014-media-release-tf-scale-launch-event-28mar2014-web.pdf"><button
-                                type="button" class="btn btn-primary">Project</button></a>
-                        <a
-                            href="https://www.republicanpost.sg/wp-content/uploads/2014/03/TF-SCALE-Photo-Essay-Booklet_28Mar14_for-Web.pdf"><button
-                                type="button" class="btn btn-primary">Essay</button></a>
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <!-- Modal: Timeline -->
+        <div>
+            <div class="modal fade" id="modalMicro2000" tabindex="-1" aria-labelledby="modalMicro2000"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Field Deployment Support at Micro 2000 Technology
+                                Pte Ltd</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Initially worked as a part-timer to assist in the deployment of new systems for schools
+                                before being assigned as <b>Field Deployment Support</b>: which is tasked to
+                                assist/support
+                                schools that has recently transited/rolled-out to the new system and support the
+                                school's
+                                technical assistant to clear up any loose ends, usually alone or with another member to
+                                support.
+                            </p>
+                            <span class="badge bg-secondary">Independent</span>
+                            <span class="badge bg-secondary">Support</span>
+                            <span class="badge bg-secondary">Windows</span>
+                            <span class="badge bg-secondary">Deployment</span>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="modal fade" id="modalDigistoreSolutions" tabindex="-1" aria-labelledby="modalDigistoreSolutions"
-            aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title"">Full Stack Developer at
+            <div class="modal fade" id="modalTFScale" tabindex="-1" aria-labelledby="modalTFScale" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Temasek Foundation Specialists' Community Action and
+                                Leadership (TF SCALE) Exchange Programme 2014</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Temasek Foundation (TF) and three of Singapore’s polytechnics – Nanyang Polytechnic
+                                (NYP),
+                                Republic Polytechnic (RP), and Singapore Polytechnic (SP) – have partnered with 10
+                                technical
+                                and vocational education and training (TVET) colleges from across ASEAN to launch the
+                                Temasek Foundation Specialists’ Community Action and Leadership Exchange (TF SCALE), a
+                                student leadership exchange program. Temasek Foundation has committed a grant of about
+                                S$1
+                                million towards the program.
+                            </p>
+                            <p>
+                                A total of 300 students – comprising 150 from Singapore and 150 from Cambodia,
+                                Indonesia,
+                                Philippines, Thailand, and Vietnam – participated in the inaugural run of TF SCALE.
+                            </p>
+                            <hr>
+                            <p>
+                                For the inbound portion programme, NYP, RP and SP each hosted 50 students from around
+                                the
+                                region. During the four-week programme in Singapore, the TF SCALE scholars engaged in
+                                various TVET-related academic programmes and participated in a series of workshops where
+                                they worked in teams to apply technical skills and knowledge to develop social
+                                innovation
+                                projects with their Singaporean counterparts.
+                            </p>
+                            <p>
+                                As the <b>Technical Leader</b> for the inbound portion of the program, my responsibility
+                                was
+                                to conduct workshops introducing students to the Raspberry Pi, managing inventory, and
+                                supporting students by guiding and pointing them towards the right direction for their
+                                social innovation projects which solve real-world problems.
+                            </p>
+                            <hr>
+                            <p>
+                                Following this, the 150 TF SCALE scholars from Singapore (50 from each of the three
+                                polytechnics) were attached to one of the regional TVET institutions for a period of two
+                                weeks. Here, the Singapore scholars joined their regional counterparts to implement
+                                their
+                                co-developed social innovation projects to benefit the local communities.
+                            </p>
+                            <p>
+                                As the <b>Overall Leader</b> for the outbound portion of the programme, my resposibility
+                                was
+                                to plan, support, and assist both the "Social" and "Technical" teams in Malang,
+                                Indonesia.
+                                <br>
+                            </p>
+                            <hr>
+                            <p>
+                                The <b>Social Team</b>'s conducted an excersion to the nearby Orphanage in the slums to
+                                donate and interact with the children for a day.
+                            </p>
+                            <p>
+                                The <b>Technical Team</b> continued work with the students from Polytechnic of Malang
+                                with
+                                their projects, from testing to deploying the devices.
+                            </p>
+                            <span class="badge bg-secondary">Linux</span>
+                            <span class="badge bg-secondary">Bash</span>
+                            <span class="badge bg-secondary">Python</span>
+                            <span class="badge bg-secondary">Raspbery Pi</span>
+                            <span class="badge bg-secondary">Electronics</span>
+                            <span class="badge bg-secondary">Leadership</span>
+                        </div>
+                        <div class="modal-footer">
+                            <a
+                                href="https://www.temasekfoundation-international.org.sg/file/our-newsroom/news-releases/2014/28-mar-2014-media-release-tf-scale-launch-event-28mar2014-web.pdf"><button
+                                    type="button" class="btn btn-primary">Project</button></a>
+                            <a
+                                href="https://www.republicanpost.sg/wp-content/uploads/2014/03/TF-SCALE-Photo-Essay-Booklet_28Mar14_for-Web.pdf"><button
+                                    type="button" class="btn btn-primary">Essay</button></a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modalDigistoreSolutions" tabindex="-1" aria-labelledby="modalDigistoreSolutions"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title"">Full Stack Developer at
                             Digistore Solutions
                             (S) Pte Ltd</h5>
                         <button type=" button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <h6>Telemedicine System</h6>
-                        <p>
-                            To build and develop a backend infrastructure to record, process, and store
-                            patients'
-                            recording of blood pressure, blood sugar content, and other measures from
-                            medical devices.
-                            Additionally, I built a Front-end PHP application/dashboard for doctors to
-                            view, organize
-                            and monitor patient details.
-                        </p>
-                        <span class="badge bg-secondary">Windows Server</span>
-                        <span class="badge bg-secondary">Microsoft SQL Server</span>
-                        <span class="badge bg-secondary">MsSQL</span>
-                        <span class="badge bg-secondary">Internet Information Services</span>
-                        <span class="badge bg-secondary">PHP</span>
-                        <span class="badge bg-secondary">jQuery</span>
-                        <hr>
-                        <h6>Radio Frequency Identification Attendance System</h6>
-                        <p>
-                            To develop a Radio Frequency Identification (RFID) Attendance System for a
-                            primary school to
-                            allow quicker attendance taking and student tracking. It includes setting up
-                            RFID scanners,
-                            systems, and software on-site at the primary school and building a PHP
-                            application/dashboard
-                            to view attendance, monitor movement, and generate reports.
-                        </p>
-                        <span class="badge bg-secondary">Linux Server</span>
-                        <span class="badge bg-secondary">Apache</span>
-                        <span class="badge bg-secondary">MySQL</span>
-                        <span class="badge bg-secondary">PHP</span>
-                        <span class="badge bg-secondary">Radio Frequency Identification</span>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="modalSangsoft" tabindex="-1" aria-labelledby="modalSangsoft" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Web Developer at Sangsoft Joint Stock
-                            Company</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                            This was a part-time virtual internship. The company operates in Ho Chi Minh
-                            City,
-                            Vietnam.<br>
-                        </p>
-                        <p>
-                            For this internship, working with the Chef Technology Officer, my
-                            responsibilities include
-                            assisting, implementing, and improving UI/UX elements of the existing
-                            application built on
-                            React.
-                        </p>
-                        <p>
-                            One such task includes designing a new customer journey process, changes on how
-                            information
-                            is displayed to customers, and to create a new API endpoint for data collection
-                            and
-                            integration with an existing chatbot.<br>
-                        </p>
-                        <span class="badge bg-secondary">Javascript/Typescript</span>
-                        <span class="badge bg-secondary">NodeJS</span>
-                        <span class="badge bg-secondary">React</span>
-                        <span class="badge bg-secondary">Linux</span>
-                        <span class="badge bg-secondary">Google Firebase</span>
-                        <span class="badge bg-secondary">Git Workflows</span>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                        <div class="modal-body">
+                            <h6>Telemedicine System</h6>
+                            <p>
+                                To build and develop a backend infrastructure to record, process, and store
+                                patients'
+                                recording of blood pressure, blood sugar content, and other measures from
+                                medical devices.
+                                Additionally, I built a Front-end PHP application/dashboard for doctors to
+                                view, organize
+                                and monitor patient details.
+                            </p>
+                            <span class="badge bg-secondary">Windows Server</span>
+                            <span class="badge bg-secondary">Microsoft SQL Server</span>
+                            <span class="badge bg-secondary">MsSQL</span>
+                            <span class="badge bg-secondary">Internet Information Services</span>
+                            <span class="badge bg-secondary">PHP</span>
+                            <span class="badge bg-secondary">jQuery</span>
+                            <hr>
+                            <h6>Radio Frequency Identification Attendance System</h6>
+                            <p>
+                                To develop a Radio Frequency Identification (RFID) Attendance System for a
+                                primary school to
+                                allow quicker attendance taking and student tracking. It includes setting up
+                                RFID scanners,
+                                systems, and software on-site at the primary school and building a PHP
+                                application/dashboard
+                                to view attendance, monitor movement, and generate reports.
+                            </p>
+                            <span class="badge bg-secondary">Linux Server</span>
+                            <span class="badge bg-secondary">Apache</span>
+                            <span class="badge bg-secondary">MySQL</span>
+                            <span class="badge bg-secondary">PHP</span>
+                            <span class="badge bg-secondary">Radio Frequency Identification</span>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="modal fade" id="modalSMUeSports" tabindex="-1" aria-labelledby="modalSMUeSports" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">SMU eSports</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <h6>Events Executive/Director and Safety In-charge (Sep 2017 - Dec 2018)</h6>
-                        <p>
-                            Main responsibility includes planning and executing events for the clubs for the
-                            interest of
-                            our school's students. With prior technical experience/knowledge, I am also
-                            responsible for
-                            managing equipment and software used by the club.
-                        </p>
-                        <p>
-                            Such examples include...
-                        </p>
-                        <ul>
-                            <li>Configurating of Audio/Video Setup</li>
-                            <li>Livestreaming</li>
-                            <li>Trobleshooting any technical problems</li>
-                        </ul>
-                        <p>
-                            Being assigned as the Safety In-Charge for the club, I am also responsible for
-                            the safety
-                            aspects of the club during activities. For this, I have taken courses BizSAFE
-                            Leve 2 Course
-                            on Risk Management and was certified by the Workplace Safety and Health (WSH)
-                            Council.
-                        </p>
-                        <span class="badge bg-secondary">Livestreaming</span>
-                        <span class="badge bg-secondary">AV Systems</span>
-                        <span class="badge bg-secondary">Management</span>
-                        <span class="badge bg-secondary">Safety</span>
-                        <span class="badge bg-secondary">Teamwork</span>
-                        <span class="badge bg-secondary">Support</span>
-                        <hr>
-                        <h6>President (Jan 2019 - Dec 2019)</h6>
-                        <p>
-                            As the President, My responsibilities include overseeing the Operations,
-                            Finances, Logistics
-                            of all events organized by the executive committee. Other responsibilities also
-                            managing the
-                            interest of the club's stakeholders and continuously seek out opportunities from
-                            external
-                            stakeholders for sponsorships and collaborative events.
-                        </p>
-                        <p>
-                            SMU eSports has been awarded the Special Interest and Community Service Sodality
-                            (SICS) in
-                            2018 and 2019.
-                        </p>
-                        <span class="badge bg-secondary">Management</span>
-                        <span class="badge bg-secondary">Communication</span>
-                        <span class="badge bg-secondary">Support</span>
-                        <hr>
-                        <h6>Events</h6>
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th scope="col">Year</th>
-                                    <th scope="col">Activity</th>
-                                    <th scope="col">Type</th>
-                                    <th scope="col">Achievement</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">2017</th>
-                                    <td>SMU Hearthstone Fireside Gathering</td>
-                                    <td>Competition</td>
-                                    <td>Organizing Committee - Event Organiser</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2018</th>
-                                    <td>Inter-Varsity Gaming Festival</td>
-                                    <td>Competition</td>
-                                    <td>Organizing Committee - Event Organiser</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2018</th>
-                                    <td>SMU Games Festival</td>
-                                    <td>Event</td>
-                                    <td>Organizing Committee - Event Organiser</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2018</th>
-                                    <td>SMU Vivace 2018</td>
-                                    <td>Event</td>
-                                    <td>CCA Representative</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2018</th>
-                                    <td>SMU Hearthstone Fireside Gathering</td>
-                                    <td>Competition</td>
-                                    <td>Organizing Committee - Event Organiser</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2018</th>
-                                    <td>SMU Games Parade</td>
-                                    <td>Event</td>
-                                    <td>Organizing Committee - Event Organiser</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2019</th>
-                                    <td>SMU Games Parade</td>
-                                    <td>Event</td>
-                                    <td>Organizing Committee - Event Organiser</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2019</th>
-                                    <td>Singtel PVP-SMU Campus League</td>
-                                    <td>Competition</td>
-                                    <td>Organizing Committee - Event Organiser</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2019</th>
-                                    <td>SMU Freshmen Orientation 2019</td>
-                                    <td>Event</td>
-                                    <td>Station Master for SMU eSports</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2019</th>
-                                    <td>SMU Vivace 2019</td>
-                                    <td>Event</td>
-                                    <td>Booth Helper for SMU eSports</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2019</th>
-                                    <td>SMU Hearthstone Fireside Tournament</td>
-                                    <td>Competition</td>
-                                    <td>Organizing Committee - Event Organiser</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <div class="modal fade" id="modalSangsoft" tabindex="-1" aria-labelledby="modalSangsoft" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Web Developer at Sangsoft Joint Stock
+                                Company</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                This was a part-time virtual internship. The company operates in Ho Chi Minh
+                                City,
+                                Vietnam.<br>
+                            </p>
+                            <p>
+                                For this internship, working with the Chef Technology Officer, my
+                                responsibilities include
+                                assisting, implementing, and improving UI/UX elements of the existing
+                                application built on
+                                React.
+                            </p>
+                            <p>
+                                One such task includes designing a new customer journey process, changes on how
+                                information
+                                is displayed to customers, and to create a new API endpoint for data collection
+                                and
+                                integration with an existing chatbot.<br>
+                            </p>
+                            <span class="badge bg-secondary">Javascript/Typescript</span>
+                            <span class="badge bg-secondary">NodeJS</span>
+                            <span class="badge bg-secondary">React</span>
+                            <span class="badge bg-secondary">Linux</span>
+                            <span class="badge bg-secondary">Google Firebase</span>
+                            <span class="badge bg-secondary">Git Workflows</span>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="modal fade" id="modalCAREsg" tabindex="-1" aria-labelledby="modalCAREsg" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Volunteer at CARE Singapore</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                            CARE Singapore is a youth-serving charity that provides school-based social-work
-                            services
-                            encompassing life-skills instruction, socio-emotional support and intervention,
-                            motivational
-                            engagement and leadership development for students deemed at-risk.
-                        </p>
-                        <h6>Camp Facilitator</h6>
-                        <p>
-                            A 3-day engagement camp for a local neighbourhood secondary school and help
-                            motivate and
-                            support them, building character and leadership skills.
-                        </p>
-                        <h6>Mentorship</h6>
-                        <p>
-                            Accepted a year long mentorship programme to mentor a student through regular
-                            meetups and
-                            outings. To act as a intermediate between CARE Singapore and the mentee to
-                            advise and guide
-                            them through daily life and be a listening ear when needed.
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <div class="modal fade" id="modalSMUeSports" tabindex="-1" aria-labelledby="modalSMUeSports"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">SMU eSports</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h6>Events Executive/Director and Safety In-charge (Sep 2017 - Dec 2018)</h6>
+                            <p>
+                                Main responsibility includes planning and executing events for the clubs for the
+                                interest of
+                                our school's students. With prior technical experience/knowledge, I am also
+                                responsible for
+                                managing equipment and software used by the club.
+                            </p>
+                            <p>
+                                Such examples include...
+                            </p>
+                            <ul>
+                                <li>Configurating of Audio/Video Setup</li>
+                                <li>Livestreaming</li>
+                                <li>Trobleshooting any technical problems</li>
+                            </ul>
+                            <p>
+                                Being assigned as the Safety In-Charge for the club, I am also responsible for
+                                the safety
+                                aspects of the club during activities. For this, I have taken courses BizSAFE
+                                Leve 2 Course
+                                on Risk Management and was certified by the Workplace Safety and Health (WSH)
+                                Council.
+                            </p>
+                            <span class="badge bg-secondary">Livestreaming</span>
+                            <span class="badge bg-secondary">AV Systems</span>
+                            <span class="badge bg-secondary">Management</span>
+                            <span class="badge bg-secondary">Safety</span>
+                            <span class="badge bg-secondary">Teamwork</span>
+                            <span class="badge bg-secondary">Support</span>
+                            <hr>
+                            <h6>President (Jan 2019 - Dec 2019)</h6>
+                            <p>
+                                As the President, My responsibilities include overseeing the Operations,
+                                Finances, Logistics
+                                of all events organized by the executive committee. Other responsibilities also
+                                managing the
+                                interest of the club's stakeholders and continuously seek out opportunities from
+                                external
+                                stakeholders for sponsorships and collaborative events.
+                            </p>
+                            <p>
+                                SMU eSports has been awarded the Special Interest and Community Service Sodality
+                                (SICS) in
+                                2018 and 2019.
+                            </p>
+                            <span class="badge bg-secondary">Management</span>
+                            <span class="badge bg-secondary">Communication</span>
+                            <span class="badge bg-secondary">Support</span>
+                            <hr>
+                            <h6>Events</h6>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Year</th>
+                                        <th scope="col">Activity</th>
+                                        <th scope="col">Type</th>
+                                        <th scope="col">Achievement</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">2017</th>
+                                        <td>SMU Hearthstone Fireside Gathering</td>
+                                        <td>Competition</td>
+                                        <td>Organizing Committee - Event Organiser</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2018</th>
+                                        <td>Inter-Varsity Gaming Festival</td>
+                                        <td>Competition</td>
+                                        <td>Organizing Committee - Event Organiser</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2018</th>
+                                        <td>SMU Games Festival</td>
+                                        <td>Event</td>
+                                        <td>Organizing Committee - Event Organiser</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2018</th>
+                                        <td>SMU Vivace 2018</td>
+                                        <td>Event</td>
+                                        <td>CCA Representative</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2018</th>
+                                        <td>SMU Hearthstone Fireside Gathering</td>
+                                        <td>Competition</td>
+                                        <td>Organizing Committee - Event Organiser</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2018</th>
+                                        <td>SMU Games Parade</td>
+                                        <td>Event</td>
+                                        <td>Organizing Committee - Event Organiser</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2019</th>
+                                        <td>SMU Games Parade</td>
+                                        <td>Event</td>
+                                        <td>Organizing Committee - Event Organiser</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2019</th>
+                                        <td>Singtel PVP-SMU Campus League</td>
+                                        <td>Competition</td>
+                                        <td>Organizing Committee - Event Organiser</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2019</th>
+                                        <td>SMU Freshmen Orientation 2019</td>
+                                        <td>Event</td>
+                                        <td>Station Master for SMU eSports</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2019</th>
+                                        <td>SMU Vivace 2019</td>
+                                        <td>Event</td>
+                                        <td>Booth Helper for SMU eSports</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2019</th>
+                                        <td>SMU Hearthstone Fireside Tournament</td>
+                                        <td>Competition</td>
+                                        <td>Organizing Committee - Event Organiser</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="modal fade" id="modalFlorescence" tabindex="-1" aria-labelledby="modalFlorescence"
-            aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Backend Developer for Team Florescence</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal fade" id="modalCAREsg" tabindex="-1" aria-labelledby="modalCAREsg" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Volunteer at CARE Singapore</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                CARE Singapore is a youth-serving charity that provides school-based social-work
+                                services
+                                encompassing life-skills instruction, socio-emotional support and intervention,
+                                motivational
+                                engagement and leadership development for students deemed at-risk.
+                            </p>
+                            <h6>Camp Facilitator</h6>
+                            <p>
+                                A 3-day engagement camp for a local neighbourhood secondary school and help
+                                motivate and
+                                support them, building character and leadership skills.
+                            </p>
+                            <h6>Mentorship</h6>
+                            <p>
+                                Accepted a year long mentorship programme to mentor a student through regular
+                                meetups and
+                                outings. To act as a intermediate between CARE Singapore and the mentee to
+                                advise and guide
+                                them through daily life and be a listening ear when needed.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
                     </div>
-                    <div class="modal-body">
-                        <p>
-                            This is a final year project involving 6 students (3 Software Developers and 3
-                            Business
-                            Analyst) in collaboration with Urban Redevelopment Authority.
-                        </p>
-                        <p>
-                            Flourishing our Locale aims to create an analytics dashboard to allow these
-                            businesses to
-                            obtain greater insights into their customers' sentiments by consolidating
-                            reviews, updating
-                            periodically, allow businesses to react to shifting sentiments, and improve the
-                            overall
-                            experience.
-                        </p>
-                        <p>
-                            The main deliverables of the project include an analytics dashboard for each
-                            individual user
-                            that allows them to view their customer's sentiments, word cloud (Verb-Noun
-                            Pair), and
-                            sentiments over time. As well as, an administrative dashboard to have an
-                            overview of the
-                            precinct that allows administrators to view the spatial limits of the precincts,
-                            ranking
-                            (normalized), customer's sentiments over time, and word cloud. And easily
-                            compare between
-                            subzones.
-                        <p>
-                        <p>
-                            My main responsibilities for this project include.
-                        <ul>
-                            <li>System architecture design</li>
-                            <li>Programming analytics functions into programming objects and interfaces</li>
-                            <li>Implementing programming principles (DRY, KISS, Single Responsibility Model,
-                                etc.)</li>
-                            <li>Improving the complexity/efficiency of the program.</li>
-                            <li>Backend Application Programming Interfaces for data retrieval</li>
-                        </ul>
-                        <span class="badge bg-secondary">Python</span>
-                        <span class="badge bg-secondary">Numpy/Pandas</span>
-                        <span class="badge bg-secondary">Natural Langauge Processing</span>
-                        <span class="badge bg-secondary">NLTK</span>
-                        <span class="badge bg-secondary">VADER</span>
-                        <span class="badge bg-secondary">SpaCy</span>
-                        <span class="badge bg-secondary">TextBlob</span>
-                        <span class="badge bg-secondary">Amazon Web Services</span>
-                        <span class="badge bg-secondary">Flask</span>
-                        <span class="badge bg-secondary">MariaDB</span>
-                        <span class="badge bg-secondary">MySQL</span>
-                        <span class="badge bg-secondary">Object Oriented Programming</span>
-                        <span class="badge bg-secondary">Web Scraping</span>
-                        <span class="badge bg-secondary">Server Management</span>
-                        <span class="badge bg-secondary">Teamwork</span>
-                        <span class="badge bg-secondary">Collaboration</span>
-                        <span class="badge bg-secondary">Presentation</span>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="https://github.com/weichia2017/florescence"><button type="button"
-                                class="btn btn-primary">Github</button></a>
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+            <div class="modal fade" id="modalFlorescence" tabindex="-1" aria-labelledby="modalFlorescence"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Backend Developer for Team Florescence</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                This is a final year project involving 6 students (3 Software Developers and 3
+                                Business
+                                Analyst) in collaboration with Urban Redevelopment Authority.
+                            </p>
+                            <p>
+                                Flourishing our Locale aims to create an analytics dashboard to allow these
+                                businesses to
+                                obtain greater insights into their customers' sentiments by consolidating
+                                reviews, updating
+                                periodically, allow businesses to react to shifting sentiments, and improve the
+                                overall
+                                experience.
+                            </p>
+                            <p>
+                                The main deliverables of the project include an analytics dashboard for each
+                                individual user
+                                that allows them to view their customer's sentiments, word cloud (Verb-Noun
+                                Pair), and
+                                sentiments over time. As well as, an administrative dashboard to have an
+                                overview of the
+                                precinct that allows administrators to view the spatial limits of the precincts,
+                                ranking
+                                (normalized), customer's sentiments over time, and word cloud. And easily
+                                compare between
+                                subzones.
+                            <p>
+                            <p>
+                                My main responsibilities for this project include.
+                            <ul>
+                                <li>System architecture design</li>
+                                <li>Programming analytics functions into programming objects and interfaces</li>
+                                <li>Implementing programming principles (DRY, KISS, Single Responsibility Model,
+                                    etc.)</li>
+                                <li>Improving the complexity/efficiency of the program.</li>
+                                <li>Backend Application Programming Interfaces for data retrieval</li>
+                            </ul>
+                            <span class="badge bg-secondary">Python</span>
+                            <span class="badge bg-secondary">Numpy/Pandas</span>
+                            <span class="badge bg-secondary">Natural Langauge Processing</span>
+                            <span class="badge bg-secondary">NLTK</span>
+                            <span class="badge bg-secondary">VADER</span>
+                            <span class="badge bg-secondary">SpaCy</span>
+                            <span class="badge bg-secondary">TextBlob</span>
+                            <span class="badge bg-secondary">Amazon Web Services</span>
+                            <span class="badge bg-secondary">Flask</span>
+                            <span class="badge bg-secondary">MariaDB</span>
+                            <span class="badge bg-secondary">MySQL</span>
+                            <span class="badge bg-secondary">Object Oriented Programming</span>
+                            <span class="badge bg-secondary">Web Scraping</span>
+                            <span class="badge bg-secondary">Server Management</span>
+                            <span class="badge bg-secondary">Teamwork</span>
+                            <span class="badge bg-secondary">Collaboration</span>
+                            <span class="badge bg-secondary">Presentation</span>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="https://github.com/weichia2017/florescence"><button type="button"
+                                    class="btn btn-primary">Github</button></a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
             </div>
