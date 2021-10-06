@@ -562,7 +562,7 @@
                                             <img src="https://img.shields.io/badge/Python-Advanced-blue" class="pr-1">
                                             <img src="https://img.shields.io/badge/Flask-Intermediate-orange"
                                                 class="pr-1">
-                                            <img src="https://img.shields.io/badge/Dash-Beginner-brightgreen"
+                                            <img src="https://img.shields.io/badge/PlotlyDash-Beginner-brightgreen"
                                                 class="pr-1">
                                         </div>
                                         <span class="lead">Java Based Langauges</span>
@@ -575,7 +575,8 @@
                                             <img src="https://img.shields.io/badge/Javascript-Advanced-blue"
                                                 class="pr-1">
                                             <img src="https://img.shields.io/badge/PHP-Advanced-blue" class="pr-1">
-                                            <img src="https://img.shields.io/badge/HTML/CSS-Advanced-blue" class="pr-1">
+                                            <img src="https://img.shields.io/badge/HTML5-Advanced-blue" class="pr-1">
+                                            <img src="https://img.shields.io/badge/CSS3-Advanced-blue" class="pr-1">
                                             <img src="https://img.shields.io/badge/Typescript-Intermediate-orange"
                                                 class="pr-1">
                                             <img src="https://img.shields.io/badge/Vue.js-Intermediate-orange"
@@ -689,6 +690,8 @@
                                             <img src="https://img.shields.io/badge/Adobe Photoshop-Intermediate-orange"
                                                 class="pr-1">
                                             <img src="https://img.shields.io/badge/Sony Vegas Pro-Intermediate-orange"
+                                                class="pr-1">
+                                            <img src="https://img.shields.io/badge/Open Broadcaster Studio-Intermediate-orange"
                                                 class="pr-1">
                                         </div>
                                         <span class="lead">Businesses</span>
@@ -982,7 +985,8 @@
                                 and
                                 integration with an existing chatbot.<br>
                             </p>
-                            <span class="badge bg-secondary">Javascript/Typescript</span>
+                            <span class="badge bg-secondary">Javascript</span>
+                            <span class="badge bg-secondary">Typescript</span>
                             <span class="badge bg-secondary">NodeJS</span>
                             <span class="badge bg-secondary">Next.JS</span>
                             <span class="badge bg-secondary">Linux</span>
@@ -1257,21 +1261,11 @@
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/js/index.js"></script>
     <script>
         AOS.init();
-
-        let date = new Date();
-        document.getElementById("time").innerText = date.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })
-        let currentHour = date.getHours();
-        let today;
-        if (currentHour < 8) {
-            today = "Probably having a good night's sleep";
-        } else if (currentHour < 18) {
-            today = "Probably working";
-        } else if (currentHour < 24) {
-            today = "Probably enjoying the rest of the day before bedtime";
-        }
-        document.getElementById("today").innerText = today
+        document.getElementById("time").innerText = getCurrentTime();
+        document.getElementById("today").innerText = TimelineNowMessage();
     </script>
 </body>
 
