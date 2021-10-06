@@ -1,0 +1,370 @@
+{
+    "Developer": {
+        "Python Based Langauge": [
+            {
+                "skill": "Python",
+                "level": "Advanced",
+                "color": "blue",
+                "icon": ""
+            },
+            {
+                "skill": "Flask",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "PlotlyDash",
+                "level": "Beginner",
+                "color": "brightgreen",
+                "icon": ""
+            }
+        ],
+        "Java Based Langauge": [
+            {
+                "skill": "Java",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            }
+        ],
+        "Javascript": [
+            {
+                "skill": "Javascript",
+                "level": "Advanced",
+                "color": "blue",
+                "icon": ""
+            },
+            {
+                "skill": "Typescript",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "Vue.js",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "jQuery",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "Empress",
+                "level": "Beginner",
+                "color": "brightgreen",
+                "icon": ""
+            },
+            {
+                "skill": "Next.js",
+                "level": "Beginner",
+                "color": "brightgreen",
+                "icon": ""
+            },
+            {
+                "skill": "NodeJS",
+                "level": "Beginner",
+                "color": "brightgreen",
+                "icon": ""
+            }
+        ],
+        "Web Development": [
+            {
+                "skill": "PHP",
+                "level": "Advanced",
+                "color": "blue",
+                "icon": ""
+            },
+            {
+                "skill": "HTML5",
+                "level": "Advanced",
+                "color": "blue",
+                "icon": ""
+            },
+            {
+                "skill": "CSS3",
+                "level": "Advanced",
+                "color": "blue",
+                "icon": ""
+            }
+        ],
+        "Database Related Langauges": [
+            {
+                "skill": "MySQL",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "MSSQL",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            }
+        ],
+        "Others Langauges": [
+            {
+                "skill": "Bash",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "R",
+                "level": "Beginner",
+                "color": "brightgreen",
+                "icon": ""
+            },
+            {
+                "skill": "Pug(Jade)",
+                "level": "Beginner",
+                "color": "brightgreen",
+                "icon": ""
+            }
+        ],
+        "Infastructure": [
+            {
+                "skill": "Amazon Web Services",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "Google Firebase",
+                "level": "Beginner",
+                "color": "brightgreen",
+                "icon": ""
+            }
+        ],
+        "Operating Servers": [
+            {
+                "skill": "Windows",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "Debian",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "Ubuntu",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            }
+        ],
+        "Concepts": [
+            {
+                "skill": "Object Oriented Programming",
+                "level": "Advanced",
+                "color": "blue",
+                "icon": ""
+            },
+            {
+                "skill": "Design Patterns",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "Design Principles",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "Defensive Programming",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "Microservice Architecture",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "Data Structures",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "Program Complexity",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "Git",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            }
+        ]
+    },
+    "Analyist": {
+        "Analytics with Python": [
+            {
+                "skill": "Pandas",
+                "level": "Advance",
+                "color": "blue",
+                "icon": ""
+            },
+            {
+                "skill": "Numpy",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "NLTK",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "VADER",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "SpaCy",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "TextBlob",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            }
+        ],
+        "Geospatial Analytics": [
+            {
+                "skill": "ArcGIS Pro",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            }
+        ],
+        "Data Visualization": [
+            {
+                "skill": "Tableau",
+                "level": "Advance",
+                "color": "blue",
+                "icon": ""
+            },
+            {
+                "skill": "Spotfire",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "Gephi",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            }
+        ],
+        "Concepts": [
+            {
+                "skill": "Natural Langauge Processing",
+                "level": "Advanced",
+                "color": "blue",
+                "icon": ""
+            },
+            {
+                "skill": "Web Scraping",
+                "level": "Advanced",
+                "color": "blue",
+                "icon": ""
+            },
+            {
+                "skill": "Exploratory Data Analysis",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "Geospatial Analytics",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            }
+        ]
+    },
+    "Others": {
+        "Applications": [
+            {
+                "skill": "Microsoft Offices Suite",
+                "level": "Advance",
+                "color": "blue",
+                "icon": ""
+            },
+            {
+                "skill": "Adobe Photoshop",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "Sony Vegas Pro",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "Open Broadcaster Studio",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            }
+        ],
+        "Business": [
+            {
+                "skill": "Signavio",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "Saleforce",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "PEGA",
+                "level": "Beginner",
+                "color": "brightgreen",
+                "icon": ""
+            }
+        ],
+        "Hardware": [
+            {
+                "skill": "Raspberry Pi",
+                "level": "Intermediate",
+                "color": "orange",
+                "icon": ""
+            },
+            {
+                "skill": "Arduino",
+                "level": "Beginner",
+                "color": "brightgreen",
+                "icon": ""
+            }
+        ]
+    }
+}
