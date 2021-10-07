@@ -2,19 +2,19 @@
     "Developer": {
         "Python Based Langauge": [
             {
-                "skill": "Python",
+                "name": "Python",
                 "level": "Advanced",
                 "color": "blue",
                 "icon": ""
             },
             {
-                "skill": "Flask",
+                "name": "Flask",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "PlotlyDash",
+                "name": "PlotlyDash",
                 "level": "Beginner",
                 "color": "brightgreen",
                 "icon": ""
@@ -22,7 +22,7 @@
         ],
         "Java Based Langauge": [
             {
-                "skill": "Java",
+                "name": "Java",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
@@ -30,43 +30,43 @@
         ],
         "Javascript": [
             {
-                "skill": "Javascript",
+                "name": "Javascript",
                 "level": "Advanced",
                 "color": "blue",
                 "icon": ""
             },
             {
-                "skill": "Typescript",
+                "name": "Typescript",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "Vue.js",
+                "name": "Vue.js",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "jQuery",
+                "name": "jQuery",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "Empress",
+                "name": "Empress",
                 "level": "Beginner",
                 "color": "brightgreen",
                 "icon": ""
             },
             {
-                "skill": "Next.js",
+                "name": "Next.js",
                 "level": "Beginner",
                 "color": "brightgreen",
                 "icon": ""
             },
             {
-                "skill": "NodeJS",
+                "name": "Node.js",
                 "level": "Beginner",
                 "color": "brightgreen",
                 "icon": ""
@@ -74,19 +74,19 @@
         ],
         "Web Development": [
             {
-                "skill": "PHP",
+                "name": "PHP",
                 "level": "Advanced",
                 "color": "blue",
                 "icon": ""
             },
             {
-                "skill": "HTML5",
+                "name": "HTML5",
                 "level": "Advanced",
                 "color": "blue",
                 "icon": ""
             },
             {
-                "skill": "CSS3",
+                "name": "CSS3",
                 "level": "Advanced",
                 "color": "blue",
                 "icon": ""
@@ -94,33 +94,33 @@
         ],
         "Database Related Langauges": [
             {
-                "skill": "MySQL",
+                "name": "MySQL",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "MSSQL",
+                "name": "MsSQL",
                 "level": "Intermediate",
                 "color": "orange",
-                "icon": ""
+                "icon": "Microsoft SQL Server"
             }
         ],
         "Others Langauges": [
             {
-                "skill": "Bash",
+                "name": "GNU Bash",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "R",
+                "name": "R",
                 "level": "Beginner",
                 "color": "brightgreen",
                 "icon": ""
             },
             {
-                "skill": "Pug(Jade)",
+                "name": "Pug",
                 "level": "Beginner",
                 "color": "brightgreen",
                 "icon": ""
@@ -128,13 +128,13 @@
         ],
         "Infastructure": [
             {
-                "skill": "Amazon Web Services",
+                "name": "Amazon AWS",
                 "level": "Intermediate",
                 "color": "orange",
-                "icon": ""
+                "icon": "Amazon AWS"
             },
             {
-                "skill": "Google Firebase",
+                "name": "Firebase",
                 "level": "Beginner",
                 "color": "brightgreen",
                 "icon": ""
@@ -142,19 +142,19 @@
         ],
         "Operating Servers": [
             {
-                "skill": "Windows",
+                "name": "Windows",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "Debian",
+                "name": "Debian",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "Ubuntu",
+                "name": "Ubuntu",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
@@ -162,49 +162,49 @@
         ],
         "Concepts": [
             {
-                "skill": "Object Oriented Programming",
+                "name": "Object Oriented Programming",
                 "level": "Advanced",
                 "color": "blue",
                 "icon": ""
             },
             {
-                "skill": "Design Patterns",
+                "name": "Design Patterns",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "Design Principles",
+                "name": "Design Principles",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "Defensive Programming",
+                "name": "Defensive Programming",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "Microservice Architecture",
+                "name": "Microservice Architecture",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "Data Structures",
+                "name": "Data Structures",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "Program Complexity",
+                "name": "Program Complexity",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "Git",
+                "name": "Git Workflow",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
@@ -214,37 +214,37 @@
     "Analyist": {
         "Analytics with Python": [
             {
-                "skill": "Pandas",
+                "name": "Pandas",
                 "level": "Advance",
                 "color": "blue",
                 "icon": ""
             },
             {
-                "skill": "Numpy",
+                "name": "NumPy",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "NLTK",
+                "name": "NLTK",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "VADER",
+                "name": "VADER",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "SpaCy",
+                "name": "SpaCy",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "TextBlob",
+                "name": "TextBlob",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
@@ -252,7 +252,7 @@
         ],
         "Geospatial Analytics": [
             {
-                "skill": "ArcGIS Pro",
+                "name": "ArcGIS Pro",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
@@ -260,19 +260,19 @@
         ],
         "Data Visualization": [
             {
-                "skill": "Tableau",
+                "name": "Tableau",
                 "level": "Advance",
                 "color": "blue",
                 "icon": ""
             },
             {
-                "skill": "Spotfire",
+                "name": "Spotfire",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "Gephi",
+                "name": "Gephi",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
@@ -280,25 +280,25 @@
         ],
         "Concepts": [
             {
-                "skill": "Natural Langauge Processing",
+                "name": "Natural Langauge Processing",
                 "level": "Advanced",
                 "color": "blue",
                 "icon": ""
             },
             {
-                "skill": "Web Scraping",
+                "name": "Web Scraping",
                 "level": "Advanced",
                 "color": "blue",
                 "icon": ""
             },
             {
-                "skill": "Exploratory Data Analysis",
+                "name": "Exploratory Data Analysis",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "Geospatial Analytics",
+                "name": "Geospatial Analytics",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
@@ -308,25 +308,25 @@
     "Others": {
         "Applications": [
             {
-                "skill": "Microsoft Offices Suite",
+                "name": "Microsoft Offices Suite",
                 "level": "Advance",
                 "color": "blue",
                 "icon": ""
             },
             {
-                "skill": "Adobe Photoshop",
+                "name": "Adobe Photoshop",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "Sony Vegas Pro",
+                "name": "Sony Vegas Pro",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "Open Broadcaster Studio",
+                "name": "Open Broadcaster Studio",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
@@ -334,19 +334,19 @@
         ],
         "Business": [
             {
-                "skill": "Signavio",
+                "name": "Signavio",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "Saleforce",
+                "name": "Saleforce",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "PEGA",
+                "name": "PEGA",
                 "level": "Beginner",
                 "color": "brightgreen",
                 "icon": ""
@@ -354,13 +354,13 @@
         ],
         "Hardware": [
             {
-                "skill": "Raspberry Pi",
+                "name": "Raspberry Pi",
                 "level": "Intermediate",
                 "color": "orange",
                 "icon": ""
             },
             {
-                "skill": "Arduino",
+                "name": "Arduino",
                 "level": "Beginner",
                 "color": "brightgreen",
                 "icon": ""
