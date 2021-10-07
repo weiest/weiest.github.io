@@ -46,27 +46,29 @@ const generateImg = (name, level, color, icon, className) => {
 fetch("/json/skills.json", { headers: { Accept: "application/json" } })
     .then((response) => response.json())
     .then((json) => {
-        for (const category in json) {
-            let categoryDiv = generateDiv("col-md-6");
-            categoryDiv.appendChild(generateTextElement("h2", category));
-            for (const subcategory in json[category]) {
-                categoryDiv.appendChild(
-                    generateTextElement("span", subcategory, "lead")
-                );
-                let imageDiv = generateDiv("mt-1 mb-3");
-                for (const skill of json[category][subcategory]) {
-                    imageDiv.appendChild(
-                        generateImg(
-                            skill.name,
-                            skill.level,
-                            skill.color,
-                            skill.icon,
-                            "pe-1 pb-1"
-                        )
+        for (const column of json.columns) {
+            let columnDiv = generateDiv("col-md-6");
+            for (const category in column) {
+                columnDiv.appendChild(generateTextElement("h2", category));
+                for (const subcategory in column[category]) {
+                    columnDiv.appendChild(
+                        generateTextElement("span", subcategory, "lead")
                     );
+                    let imageDiv = generateDiv("mt-1 mb-3");
+                    for (const skill of column[category][subcategory]) {
+                        imageDiv.appendChild(
+                            generateImg(
+                                skill.name,
+                                skill.level,
+                                skill.color,
+                                skill.icon,
+                                "pe-1 pb-1"
+                            )
+                        );
+                    }
+                    columnDiv.appendChild(imageDiv);
                 }
-                categoryDiv.appendChild(imageDiv);
             }
-            document.getElementById("skills").appendChild(categoryDiv);
+            document.getElementById("skills").appendChild(columnDiv);
         }
     });

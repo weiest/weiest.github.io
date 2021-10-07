@@ -1,370 +1,376 @@
 {
-    "Developer": {
-        "Python Based Langauge": [
-            {
-                "name": "Python",
-                "level": "Advanced",
-                "color": "blue",
-                "icon": ""
-            },
-            {
-                "name": "Flask",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "PlotlyDash",
-                "level": "Beginner",
-                "color": "brightgreen",
-                "icon": ""
+    "columns": [
+        {
+            "Developer": {
+                "Python Based Langauge": [
+                    {
+                        "name": "Python",
+                        "level": "Advanced",
+                        "color": "blue",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Flask",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "PlotlyDash",
+                        "level": "Beginner",
+                        "color": "brightgreen",
+                        "icon": ""
+                    }
+                ],
+                "Java Based Langauge": [
+                    {
+                        "name": "Java",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    }
+                ],
+                "Javascript": [
+                    {
+                        "name": "Javascript",
+                        "level": "Advanced",
+                        "color": "blue",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Typescript",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Vue.js",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "jQuery",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Empress",
+                        "level": "Beginner",
+                        "color": "brightgreen",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Next.js",
+                        "level": "Beginner",
+                        "color": "brightgreen",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Node.js",
+                        "level": "Beginner",
+                        "color": "brightgreen",
+                        "icon": ""
+                    }
+                ],
+                "Web Development": [
+                    {
+                        "name": "PHP",
+                        "level": "Advanced",
+                        "color": "blue",
+                        "icon": ""
+                    },
+                    {
+                        "name": "HTML5",
+                        "level": "Advanced",
+                        "color": "blue",
+                        "icon": ""
+                    },
+                    {
+                        "name": "CSS3",
+                        "level": "Advanced",
+                        "color": "blue",
+                        "icon": ""
+                    }
+                ],
+                "Database Related Langauges": [
+                    {
+                        "name": "MySQL",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "MsSQL",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": "Microsoft SQL Server"
+                    }
+                ],
+                "Others Langauges": [
+                    {
+                        "name": "GNU Bash",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "R",
+                        "level": "Beginner",
+                        "color": "brightgreen",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Pug",
+                        "level": "Beginner",
+                        "color": "brightgreen",
+                        "icon": ""
+                    }
+                ],
+                "Infastructure": [
+                    {
+                        "name": "Amazon AWS",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": "Amazon AWS"
+                    },
+                    {
+                        "name": "Firebase",
+                        "level": "Beginner",
+                        "color": "brightgreen",
+                        "icon": ""
+                    }
+                ],
+                "Operating Servers": [
+                    {
+                        "name": "Windows",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Debian",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Ubuntu",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    }
+                ],
+                "Concepts": [
+                    {
+                        "name": "Object Oriented Programming",
+                        "level": "Advanced",
+                        "color": "blue",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Design Patterns",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Design Principles",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Defensive Programming",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Microservice Architecture",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Data Structures",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Program Complexity",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Git Workflow",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    }
+                ]
             }
-        ],
-        "Java Based Langauge": [
-            {
-                "name": "Java",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
+        },
+        {
+            "Analyist": {
+                "Analytics with Python": [
+                    {
+                        "name": "Pandas",
+                        "level": "Advance",
+                        "color": "blue",
+                        "icon": ""
+                    },
+                    {
+                        "name": "NumPy",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "NLTK",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "VADER",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "SpaCy",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "TextBlob",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    }
+                ],
+                "Geospatial Analytics": [
+                    {
+                        "name": "ArcGIS Pro",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    }
+                ],
+                "Data Visualization": [
+                    {
+                        "name": "Tableau",
+                        "level": "Advance",
+                        "color": "blue",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Spotfire",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Gephi",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    }
+                ],
+                "Concepts": [
+                    {
+                        "name": "Natural Langauge Processing",
+                        "level": "Advanced",
+                        "color": "blue",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Web Scraping",
+                        "level": "Advanced",
+                        "color": "blue",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Exploratory Data Analysis",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Geospatial Analytics",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    }
+                ]
+            },
+            "Others": {
+                "Applications": [
+                    {
+                        "name": "Microsoft Offices Suite",
+                        "level": "Advance",
+                        "color": "blue",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Adobe Photoshop",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Sony Vegas Pro",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Open Broadcaster Studio",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    }
+                ],
+                "Business": [
+                    {
+                        "name": "Signavio",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Saleforce",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "PEGA",
+                        "level": "Beginner",
+                        "color": "brightgreen",
+                        "icon": ""
+                    }
+                ],
+                "Hardware": [
+                    {
+                        "name": "Raspberry Pi",
+                        "level": "Intermediate",
+                        "color": "orange",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Arduino",
+                        "level": "Beginner",
+                        "color": "brightgreen",
+                        "icon": ""
+                    }
+                ]
             }
-        ],
-        "Javascript": [
-            {
-                "name": "Javascript",
-                "level": "Advanced",
-                "color": "blue",
-                "icon": ""
-            },
-            {
-                "name": "Typescript",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "Vue.js",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "jQuery",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "Empress",
-                "level": "Beginner",
-                "color": "brightgreen",
-                "icon": ""
-            },
-            {
-                "name": "Next.js",
-                "level": "Beginner",
-                "color": "brightgreen",
-                "icon": ""
-            },
-            {
-                "name": "Node.js",
-                "level": "Beginner",
-                "color": "brightgreen",
-                "icon": ""
-            }
-        ],
-        "Web Development": [
-            {
-                "name": "PHP",
-                "level": "Advanced",
-                "color": "blue",
-                "icon": ""
-            },
-            {
-                "name": "HTML5",
-                "level": "Advanced",
-                "color": "blue",
-                "icon": ""
-            },
-            {
-                "name": "CSS3",
-                "level": "Advanced",
-                "color": "blue",
-                "icon": ""
-            }
-        ],
-        "Database Related Langauges": [
-            {
-                "name": "MySQL",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "MsSQL",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": "Microsoft SQL Server"
-            }
-        ],
-        "Others Langauges": [
-            {
-                "name": "GNU Bash",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "R",
-                "level": "Beginner",
-                "color": "brightgreen",
-                "icon": ""
-            },
-            {
-                "name": "Pug",
-                "level": "Beginner",
-                "color": "brightgreen",
-                "icon": ""
-            }
-        ],
-        "Infastructure": [
-            {
-                "name": "Amazon AWS",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": "Amazon AWS"
-            },
-            {
-                "name": "Firebase",
-                "level": "Beginner",
-                "color": "brightgreen",
-                "icon": ""
-            }
-        ],
-        "Operating Servers": [
-            {
-                "name": "Windows",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "Debian",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "Ubuntu",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            }
-        ],
-        "Concepts": [
-            {
-                "name": "Object Oriented Programming",
-                "level": "Advanced",
-                "color": "blue",
-                "icon": ""
-            },
-            {
-                "name": "Design Patterns",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "Design Principles",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "Defensive Programming",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "Microservice Architecture",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "Data Structures",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "Program Complexity",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "Git Workflow",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            }
-        ]
-    },
-    "Analyist": {
-        "Analytics with Python": [
-            {
-                "name": "Pandas",
-                "level": "Advance",
-                "color": "blue",
-                "icon": ""
-            },
-            {
-                "name": "NumPy",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "NLTK",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "VADER",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "SpaCy",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "TextBlob",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            }
-        ],
-        "Geospatial Analytics": [
-            {
-                "name": "ArcGIS Pro",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            }
-        ],
-        "Data Visualization": [
-            {
-                "name": "Tableau",
-                "level": "Advance",
-                "color": "blue",
-                "icon": ""
-            },
-            {
-                "name": "Spotfire",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "Gephi",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            }
-        ],
-        "Concepts": [
-            {
-                "name": "Natural Langauge Processing",
-                "level": "Advanced",
-                "color": "blue",
-                "icon": ""
-            },
-            {
-                "name": "Web Scraping",
-                "level": "Advanced",
-                "color": "blue",
-                "icon": ""
-            },
-            {
-                "name": "Exploratory Data Analysis",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "Geospatial Analytics",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            }
-        ]
-    },
-    "Others": {
-        "Applications": [
-            {
-                "name": "Microsoft Offices Suite",
-                "level": "Advance",
-                "color": "blue",
-                "icon": ""
-            },
-            {
-                "name": "Adobe Photoshop",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "Sony Vegas Pro",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "Open Broadcaster Studio",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            }
-        ],
-        "Business": [
-            {
-                "name": "Signavio",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "Saleforce",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "PEGA",
-                "level": "Beginner",
-                "color": "brightgreen",
-                "icon": ""
-            }
-        ],
-        "Hardware": [
-            {
-                "name": "Raspberry Pi",
-                "level": "Intermediate",
-                "color": "orange",
-                "icon": ""
-            },
-            {
-                "name": "Arduino",
-                "level": "Beginner",
-                "color": "brightgreen",
-                "icon": ""
-            }
-        ]
-    }
+        }
+    ]
 }
