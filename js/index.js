@@ -21,31 +21,31 @@ const TimelineNowMessage = () => {
     }
 };
 
-const generateDiv = (className) => {
-    const div = document.createElement("div");
-    div.className = className;
-    return div;
-};
-
-const generateTextElement = (tag, text, className) => {
-    const element = document.createElement(tag);
-    element.textContent = text;
-    if (className !== undefined) element.className = className;
-    return element;
-};
-
-const generateImg = (name, level, color, icon, className) => {
-    var img = new Image();
-    img.src = `https://img.shields.io/badge/${name}-${level}-${color.toLowerCase()}?style=for-the-badge&logoColor=white&logo=`;
-    img.src += icon === "" ? name : icon;
-    if (className !== undefined) img.className = className;
-    img.alt = `${level}-${name}`;
-    return img;
-};
-
 fetch("/json/skills.json", { headers: { Accept: "application/json" } })
     .then((response) => response.json())
     .then((json) => {
+        const generateDiv = (className) => {
+            const div = document.createElement("div");
+            div.className = className;
+            return div;
+        };
+
+        const generateTextElement = (tag, text, className) => {
+            const element = document.createElement(tag);
+            element.textContent = text;
+            if (className !== undefined) element.className = className;
+            return element;
+        };
+
+        const generateImg = (name, level, color, icon, className) => {
+            var img = new Image();
+            img.src = `https://img.shields.io/badge/${name}-${level}-${color.toLowerCase()}?style=for-the-badge&logoColor=white&logo=`;
+            img.src += icon === "" ? name : icon;
+            if (className !== undefined) img.className = className;
+            img.alt = `${level}-${name}`;
+            return img;
+        };
+
         for (const column of json.columns) {
             let columnDiv = generateDiv("col-md-6");
             for (const category in column) {

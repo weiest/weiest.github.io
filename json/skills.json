@@ -102,10 +102,10 @@
                         "icon": ""
                     },
                     {
-                        "name": "MsSQL",
+                        "name": "Microsoft SQL Server",
                         "level": "Intermediate",
                         "color": "orange",
-                        "icon": "Microsoft SQL Server"
+                        "icon": ""
                     }
                 ],
                 "Others Langauges": [
@@ -133,7 +133,7 @@
                         "name": "Amazon AWS",
                         "level": "Intermediate",
                         "color": "orange",
-                        "icon": "Amazon AWS"
+                        "icon": ""
                     },
                     {
                         "name": "Firebase",
@@ -312,7 +312,7 @@
             "Others": {
                 "Applications": [
                     {
-                        "name": "Microsoft Offices Suite",
+                        "name": "Microsoft Office",
                         "level": "Advance",
                         "color": "blue",
                         "icon": ""
@@ -330,7 +330,7 @@
                         "icon": ""
                     },
                     {
-                        "name": "Open Broadcaster Studio",
+                        "name": "OBS Studio",
                         "level": "Intermediate",
                         "color": "orange",
                         "icon": ""
