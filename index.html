@@ -550,12 +550,11 @@
                                     technologies, and skillsets.
                                 </p>
                                 <hr class="col-3 col-md-2">
-                                Beginner: Self taught or unconfident<br>
-                                Intermediate: Taught in classes or have work/project experience in the skill<br>
-                                Advance: Confident with knowledge, preferred, and/or long experience with skill.<br>
-                                <hr class="col-3 col-md-2 mb-5">
-                                <div id="skills" class="row g-5 mb-5">
-
+                                <div id="skills">
+                                    <div class="d-flex align-items-center">
+                                        <strong>Loading...</strong>
+                                        <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1107,6 +1106,7 @@
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/js/index.js"></script>
+    <script src="/js/loadSkills.js"></script>
     <script>
         AOS.init();
         document.getElementById("time").innerText = getCurrentTime();
