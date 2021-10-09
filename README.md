@@ -1,6 +1,7 @@
 # weiest.github.io
 
-Basically a portfolio for myself.
+Basically a portfolio built for myself
+And also a practice ground for myself to practice web development (especially javascript)
 
 **Credits**
 -   [Bitcoin timeline with fixed header using flexbox](https://codepen.io/mathiesjanssen/pen/ggeBKm "Bitcoin timeline with fixed header using flexbox") by [Matys](https://codepen.io/mathiesjanssen)
