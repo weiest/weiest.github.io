@@ -5,7 +5,7 @@ fetch("/json/skills.json", { headers: { Accept: "application/json" } })
     .then((json) => {
         const generateElement = (tag, text, className) => {
             const element = document.createElement(tag);
-            if (text !== null) element.textContent = text;
+            if (text !== null) element.innerHTML = text;
             if (className !== null) element.className = className;
             return element;
         };
