@@ -1,4 +1,5 @@
 "use strict";
+import {generateElement} from '/js/common.js'
 
 fetch("/json/timeline.json", { headers: { Accept: "application/json" } })
     .then((response) => response.json())
@@ -34,13 +35,6 @@ fetch("/json/timeline.json", { headers: { Accept: "application/json" } })
         return json;
     })
     .then((json) => {
-        const generateElement = (tag, text = null, className = null) => {
-            const element = document.createElement(tag);
-            if (text !== null) element.innerHTML = text;
-            if (className !== null) element.className = className;
-            return element;
-        };
-
         const timelineDiv = generateElement("div", null, "timeline-div");
         for (const years of json.timeline) {
             let yearsSection = generateElement("section", null, "year");
@@ -48,7 +42,7 @@ fetch("/json/timeline.json", { headers: { Accept: "application/json" } })
             for (const month of years.months) {
                 let monthSection = generateElement("section");
                 monthSection.appendChild(generateElement("h4", month.month));
-                let eventUl = generateElement("ul");
+                let eventUl = generateElement("ul", null, null);
                 for (const event in month.events) {
                     let temp = month.events[event];
                     eventUl.appendChild(

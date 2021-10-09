@@ -1,15 +1,9 @@
 "use strict";
+import {generateElement} from '/js/common.js'
 
 fetch("/json/skills.json", { headers: { Accept: "application/json" } })
     .then((response) => response.json())
     .then((json) => {
-        const generateElement = (tag, text, className) => {
-            const element = document.createElement(tag);
-            if (text !== null) element.innerHTML = text;
-            if (className !== null) element.className = className;
-            return element;
-        };
-
         const generateImg = (name, level, color, icon, className) => {
             var img = new Image();
             img.src = `https://img.shields.io/badge/${name}-${level}-${color.toLowerCase()}?style=for-the-badge&logoColor=white&logo=`;
