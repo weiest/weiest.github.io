@@ -394,8 +394,22 @@
                     "month": "September",
                     "events": [
                         {
-                            "icon": "education",
+                            "icon": "work",
                             "event": "Started working as a full-time <b>Associate Software Developer</b> with <b>Avensys Consulting Pte Ltd</b>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "months": [
+                {
+                    "month": "January",
+                    "events": [
+                        {
+                            "icon": "work",
+                            "event": "Started working on a project as a <b>Pega Developer</b> with <b>Accenture</b>"
                         }
                     ]
                 }
