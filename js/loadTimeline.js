@@ -19,7 +19,7 @@ fetch("/json/timeline.json", { headers: { Accept: "application/json" } })
 			],
 		});
 		json.timeline.push({
-			year: "Future",
+			year: "????",
 			months: [
 				{
 					month: "???",
@@ -78,6 +78,10 @@ fetch("/json/timeline.json", { headers: { Accept: "application/json" } })
 			if (currentHour < 8) {
 				return "Probably having a good night's sleep";
 			} else if (currentHour < 18) {
+                const day = date.getDay();
+                if (day == 0 || day == 6){
+                    return "Probably chilling at home or out with friends";
+                }
 				return "Probably working";
 			} else {
 				return "Probably enjoying the rest of the day before bedtime";
